@@ -1,0 +1,1 @@
+Para instalar: publica el contenido de esta carpeta en un hosting HTTPS, abre la dirección en Chrome Android y elige Instalar aplicación. Los historiales y cambios quedan separados por dispositivo. El catálogo se incluye en la app; Excel se importa con conexión a internet, CSV también es compatible.
