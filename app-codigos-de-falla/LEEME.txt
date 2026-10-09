@@ -1,1 +1,4 @@
-Para instalar: publica el contenido de esta carpeta en un hosting HTTPS, abre la dirección en Chrome Android y elige Instalar aplicación. Los historiales y cambios quedan separados por dispositivo. El catálogo se incluye en la app; Excel se importa con conexión a internet, CSV también es compatible.
+App web instalable: Códigos de Falla + consulta de alarmas BRB 240.
+La carpeta app-codigos-de-falla-actualizada es independiente de la versión anterior.
+Incluye la base de alarmas transformada, catálogo de componentes, tres guías HTML y las páginas 89–95 del manual LTE 240.
+Publicar el contenido de esta carpeta como una carpeta nueva en GitHub Pages para revisar la actualización sin reemplazar la app anterior.

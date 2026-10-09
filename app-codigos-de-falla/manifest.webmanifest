@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Códigos de Falla",
-  "short_name": "Fallas",
-  "description": "Buscador personal de fallas de maquinaria",
+  "name": "Códigos de Falla · BRB 240",
+  "short_name": "Fallas BRB",
+  "description": "Consulta personal de fallas BRB 240, componentes y guías de aprendizaje.",
   "lang": "es",
   "start_url": "./index.html",
   "scope": "./",
