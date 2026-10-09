@@ -1,0 +1,209 @@
+[
+  {
+    "heading": "ALARMA #001 / #002 (Pág. 91)",
+    "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+    "notes": "Falla:  Encoder vertical de carreta EC6 / Falla de calibración de altura.\nUbicación en el circuito (LTE 240):\nPágina 53: Servomotor M8 y conector de encoder EC6.\nPágina 56: Conector CN117 en la tarjeta CPU BRB 8000.\nPágina 76: Tarjeta de control de eje vertical BRB 2043.",
+    "codes": [
+      "001",
+      "002"
+    ]
+  },
+  {
+    "heading": "ALARMA #003 (Pág. 91)",
+    "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+    "notes": "Falla:  PSW1 (arriba) y PSW3 (abajo) activos al mismo tiempo.\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: PSW1 (CN37) y PSW3 (CN39) en la tarjeta BRB 2072.\nMáscaras de Diagnóstico:  Bits 08 (PSW1) y 10 (PSW3) en LEA 2010 IND. 0.",
+    "codes": [
+      "003"
+    ]
+  },
+  {
+    "heading": "ALARMA #004 (Pág. 91)",
+    "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+    "notes": "Falla:  Interferencia mecánica/secuencia carreta y pisador (PSW9 OFF y PSW7 OFF).\nUbicación en el circuito:\nPágina 24 (LTE 240): Método de desbloqueo mecánico.\nPáginas 49 y 80 (LTE 240): PSW7 (CN43) y PSW9 (CN45) en BRB 2072.\nPágina 21 (Manual Mantenimiento / Bierrebi): Procedimiento de desbloqueo mediante cambio de puente en la tarjeta BRB 2072.\nMáscaras de Diagnóstico:  Bits 14 (PSW7) y 17 (PSW9).",
+    "codes": [
+      "004"
+    ]
+  },
+  {
+    "heading": "ALARMA #005 a #010 (Pág. 91)",
+    "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+    "notes": "Falla:  Incoherencia de posiciones del pisador (PSW8, PSW9, PSW10, PSW16).\nUbicación en el circuito (LTE 240):\nPáginas 49, 50 y 80: Conectores CN44 (PSW8), CN45 (PSW9) y CN46 (PSW10) en BRB 2072; PSW16 en CN15 de BRB 2070.\nMáscaras de Diagnóstico:  Bits 16, 17, 18 y 35.",
+    "codes": [
+      "005",
+      "006",
+      "007",
+      "008",
+      "009",
+      "010"
+    ]
+  },
+  {
+    "heading": "ALARMA #011 / #012 (Pág. 91)",
+    "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+    "notes": "Falla:  Incoherencia en mesa de descarga (PSW11 cerrada / PSW12 abierta).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN47 (PSW11) y CN48 (PSW12) en BRB 2072.\nMáscaras de Diagnóstico:  Bits 19 y 20.",
+    "codes": [
+      "011",
+      "012"
+    ]
+  },
+  {
+    "heading": "ALARMA #013 (Pág. 91)",
+    "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+    "notes": "Falla:  Encoder de la mesa de descarga desconectado/averiado.\nUbicación en el circuito (LTE 240):\nPágina 56: Señal de encoder desde BRB 3042 a CN116 en CPU BRB 8000.\nPágina 77: Panel del Inversor 3 (BRB 3042 / CN107).",
+    "codes": [
+      "013"
+    ]
+  },
+  {
+    "heading": "ALARMA #014 / #015 (Págs. 91 y 92)",
+    "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+    "notes": "Falla:  Apilador fuera de límites (PSW13, PSW14, MSW5).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN49 (PSW13), CN50 (PSW14) y CN33 (MSW5).\nMáscaras de Diagnóstico:  Bits 05, 21 y 22.",
+    "codes": [
+      "014",
+      "015"
+    ]
+  },
+  {
+    "heading": "ALARMA #016 / #017 / #019 / #020 / #021 (Pág. 92)",
+    "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+    "notes": "Falla:  Sensores de posición de la carreta fuera de secuencia (PSW4, PSW5, PSW6, PSW7).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN40 (PSW4), CN41 (PSW5), CN42 (PSW6), CN43 (PSW7) en BRB 2072.\nPágina 55: Entradas físicas enviadas a la tarjeta de eje BRB 2044.\nMáscaras de Diagnóstico:  Bits 64, 65, 66 en BRB 2044.",
+    "codes": [
+      "016",
+      "017",
+      "019",
+      "020",
+      "021"
+    ]
+  },
+  {
+    "heading": "ALARMA #034 / #035 (Pág. 92)",
+    "category": "3. Alarmas de Módulos de Salida y Sistema (#034 a #111) (Páginas 92 y 93)",
+    "notes": "Falla:  RAM no inicializada o falta de cable link #42 con el módulo DIR.\nComponentes / Ubicación:\nPáginas 48 y 67 (LTE 240): CPU Master BRB 8000 en rack PCO 3272.\nPágina 41 (TF 235): Interconexión de las líneas de señal de control entre el rack LTE y la tarjeta distribuidores BRB 3018 del DIR.",
+    "codes": [
+      "034",
+      "035"
+    ]
+  },
+  {
+    "heading": "ALARMA #064 / #072 (Pág. 92)",
+    "category": "3. Alarmas de Módulos de Salida y Sistema (#034 a #111) (Páginas 92 y 93)",
+    "notes": "Falla:  Falla en salidas de la tarjeta LEA 2020 IND. 3.\nUbicación en el circuito (LTE 240):\nPáginas 48, 63 y 67: Salidas OUT0 a OUT7 (líneas 48 a 55) en ranura 4 del rack PCO 3272.\nMáscaras de Diagnóstico:  Bits 48 a 55.",
+    "codes": [
+      "064",
+      "072"
+    ]
+  },
+  {
+    "heading": "ALARMA #083 (Pág. 92)",
+    "category": "3. Alarmas de Módulos de Salida y Sistema (#034 a #111) (Páginas 92 y 93)",
+    "notes": "Falla:  Falla de lubricación automática.\nUbicación en el circuito (LTE 240):\nPáginas 50 y 60: Sensor MSW11 en conector CN21.\nPágina 64: Salida OUT16 en LEA 2020 IND. 5 que activa el relé RE26.\nMáscaras de Diagnóstico:  Bit 45 (IN 45); Bit 152 (OUT 16).",
+    "codes": [
+      "083"
+    ]
+  },
+  {
+    "heading": "ALARMA #096 / #104 (Pág. 93)",
+    "category": "3. Alarmas de Módulos de Salida y Sistema (#034 a #111) (Páginas 92 y 93)",
+    "notes": "Falla:  Fallo de salidas en tarjeta LEA 2020 IND. 4.\nUbicación en el circuito (LTE 240):\nPágina 63: Salidas OUT8 a OUT15 (líneas 56 a 63).",
+    "codes": [
+      "096",
+      "104"
+    ]
+  },
+  {
+    "heading": "ALARMA #099 (Pág. 93)",
+    "category": "3. Alarmas de Módulos de Salida y Sistema (#034 a #111) (Páginas 92 y 93)",
+    "notes": "Falla:  Conflicto de elevación de apilador con la fotocélula de barrera PH2 activada.\nUbicación en el circuito (LTE 240):\nPágina 49: Receptor PH2/R (CN53 en BRB 2074).\nPágina 79: Control del Inversor 5 y barrera PH2.",
+    "codes": [
+      "099"
+    ]
+  },
+  {
+    "heading": "ALARMA #100 (Pág. 93)",
+    "category": "3. Alarmas de Módulos de Salida y Sistema (#034 a #111) (Páginas 92 y 93)",
+    "notes": "Falla:  El servo-driver del movimiento de correa en el DIR / TF 235 no está listo o interruptor IA40 disparado.\nComponentes / Tarjetas (TF 235 y LTE 240):\nInterruptor magnetotérmico IA40 (2A), Servodriver de correa A1, Tarjeta de interfaz de eje BRB 3013.\nUbicación en los circuitos del DIR:\nPágina 26 (TF 235): Ubicación del relé de temperatura RT1, IA40 y la tarjeta BRB 3013 en el cuadro de correa.\nPágina 28 (TF 235): Esquema de alimentación de potencia del servodriver A1 y motor M13.\nPáginas 40 y 52 (TF 235): Señal de salida READY (línea 53/CN58 de BRB 3013) enviada desde el servodriver hacia la tarjeta de eje CPU.\nPágina 52 (TF 235): Luces LED de estado en la tarjeta del servodriver: LED RUN (Verde = Operativo) y LED STS (Rojo = Deshabilitado / Falla).",
+    "codes": [
+      "100"
+    ]
+  },
+  {
+    "heading": "ALARMA #110 / #111 (Pág. 93)",
+    "category": "3. Alarmas de Módulos de Salida y Sistema (#034 a #111) (Páginas 92 y 93)",
+    "notes": "Falla:  Falla en salidas de la tarjeta LEA 2020 IND. 5.\nUbicación en el circuito (LTE 240):\nPáginas 64 y 100: Salidas OUT16 a OUT23 (líneas 152 a 159).",
+    "codes": [
+      "110",
+      "111"
+    ]
+  },
+  {
+    "heading": "ALARMA #160 / #161 / #163 / #164 / #170 (Págs. 93 y 94)",
+    "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+    "notes": "Falla:  Anomalías del eje horizontal de la carreta, fallo de la tarjeta de eje BRB 2044, interfaz BRB 2045 o encoder EC5.\nUbicación en el circuito (LTE 240):\nPágina 50: Encoder EC5 en conector CN51 de BRB 2072.\nPágina 55 y 78: Circuito del Inversor 4, tarjeta de interfaz BRB 2045 (LEDs LD1 a LD5) y tarjeta BRB 2044.",
+    "codes": [
+      "160",
+      "161",
+      "163",
+      "164",
+      "170"
+    ]
+  },
+  {
+    "heading": "ALARMA #181 (Pág. 94)",
+    "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+    "notes": "Falla:  RAM desinicializada o corrupta en la tarjeta CPU BRB 8900 del módulo DIR (TF 3-4 o TF 5).\nComponentes / Tarjetas (TF 235):  Tarjeta CPU BRB 8900.\nUbicación en el manual DIR:\nPáginas 15, 16, 17 y 43 (TF 235): Disposición de la tarjeta CPU BRB 8900 en el panel eléctrico DIR, selectores SW1, SW2, DIP-switch SW3 y zócalo de la EPROM.\nProcedimiento de Recuperación (Páginas 17 y 18 TF 235):  Si se reemplaza la tarjeta BRB 8900 o la RAM se pierde, colocar el selector SW2 en la posición 7 para calibrar el encoder del potenciómetro de correa EC7 y volver a posicionar en 3 para operación.",
+    "codes": [
+      "181"
+    ]
+  },
+  {
+    "heading": "ALARMA #240 (Pág. 94)",
+    "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+    "notes": "Falla:  Tiempo de ciclo excedido (10 s) por falta de cambio de estado en sensores del ciclo principal.\nUbicación en el circuito:\nPáginas 49, 61 y 62 (LTE 240): Mapeo de la cadena de entradas en las tarjetas LEA 2010 IND. 0 y 1.\nMáscaras de Diagnóstico:  Bits 00 a 47.",
+    "codes": [
+      "240"
+    ]
+  },
+  {
+    "heading": "ALARMA #241 / #242 (Pág. 94)",
+    "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+    "notes": "Falla:  Falta de ciclo de pisador / Sensor PSW8 (pisador alto) desmarcado.\nUbicación en el circuito (LTE 240):\nPágina 26: Procedimiento técnico de restauración en pantalla.\nPáginas 54 y 75: Conexiones del Inversor 1 y motor M10.\nPágina 74: Tarjeta de relés de velocidad BRB 2073 (RE35-RE44).",
+    "codes": [
+      "241",
+      "242"
+    ]
+  },
+  {
+    "heading": "ALARMA #243 / #244 (Pág. 94)",
+    "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+    "notes": "Falla:  RAM dañada en BRB 8000 / Confirmación de inverters desactivada (IN34 OFF).\nUbicación en el circuito:\nPáginas 48 y 62 (LTE 240): Entrada IN34 en tarjeta LEA 2010 IND. 1.",
+    "codes": [
+      "243",
+      "244"
+    ]
+  },
+  {
+    "heading": "ALARMA #247 (Pág. 95)",
+    "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+    "notes": "Falla:  RAM defectuosa en tarjeta comunicadora de display BRB 2057.\nUbicación en el circuito (LTE 240):\nPáginas 51 y 83: Tarjeta BRB 2057 conectada por buses planos (CN87, CN88) y fibra óptica TX8/RX8.",
+    "codes": [
+      "247"
+    ]
+  },
+  {
+    "heading": "ALARMA #253 / #254 (Pág. 95)",
+    "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+    "notes": "Falla:  Falla en el bucle de comunicación por fibra óptica / Anillo abierto.\nUbicación e Interconexión de Fibra Óptica (LTE 240 + TF 235):\nPágina 52 (LTE 240): Conexiones de fibra óptica entre CPU Master BRB 8000, tarjeta de eje BRB 2044 e interfaz BRB 2057.\nPágina 43 y 58 (TF 235): Cadena de fibra óptica que ingresa al armario DIR:\nLa fibra que sale de la máquina base ingresa a la tarjeta BRB 8900 del cuadro TF 5 por los conectores TX6 / RX6.\nDel cuadro TF 5 la fibra sale por TX7 / RX7 hacia los conectores TX8 / RX8 de la tarjeta CPU BRB 8900 del cuadro TF 3-4.\nMáscaras de Diagnóstico:  Estado de fibra U1, U2, U3, U4 en pantalla.",
+    "codes": [
+      "253",
+      "254"
+    ]
+  },
+  {
+    "heading": "ALARMA #255 (Pág. 95)",
+    "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+    "notes": "Falla:   Error de comunicación de datos entre la tarjeta CPU BRB 8900 (del módulo DIR 940 3-4) y la tarjeta de control de correa BRB 3013.\nComponentes / Tarjetas (TF 235 / DIR):   CPU BRB 8900 (TF 3-4), Tarjeta de Interfaz de Correa BRB 3013, Servodriver A1.\nUbicación en el manual DIR:\nPágina 40 y 53 (TF 235):  Transmisión serie desde la CPU BRB 8900 (TF 3-4) conector CN60 (pines TX+/TX-, RX+/RX-) hacia el conector CN59 de la tarjeta BRB 3013.\nPágina 53 (TF 235):  Revisa el cableado de interconexión entre la tarjeta BRB 3013 y la tarjeta de eje del servodriver por los conectores CN55 y CN56.\nMáscaras de Diagnóstico:\nPáginas 15 y 16 (TF 235) / Página 99 (LTE 240): Pantalla de diagnóstico del TF/DIR presionando la combinación de teclas: [KEY ON] + [DISPLAY/7] + [FLECHA ARRIBA]. Debe mostrar en la columna derecha las lecturas del potenciómetro de correa (G, E, Z).",
+    "codes": [
+      "255"
+    ]
+  }
+]

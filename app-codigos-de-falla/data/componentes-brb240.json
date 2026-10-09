@@ -1,0 +1,254 @@
+[
+  {
+    "ID Componente": "BRB 8000",
+    "Tipo de Componente": "Tarjeta CPU Master / Procesador",
+    "Ubicación en el Sistema": "Rack PCO 3272 (LTE 240)",
+    "Función Principal": "Control lógico central, gestión de secuencia general y procesamiento de alarmas.",
+    "Notas, Indicadores y Observaciones": "Incluye zócalo de memoria RAM/EPROM y conectores de fibra óptica y bus de datos."
+  },
+  {
+    "ID Componente": "BRB 8900",
+    "Tipo de Componente": "Tarjeta CPU de Control DIR",
+    "Ubicación en el Sistema": "Paneles TF 1-2, TF 3-4 y TF 5 (DIR)",
+    "Función Principal": "Procesador principal de los alimentadores/esparcidores. Control de rollos y eje correa.",
+    "Notas, Indicadores y Observaciones": "Posee selectores giratorios SW1, SW2 (ajuste a posición 3 u 8/7) y comunicadores de fibra TX/RX."
+  },
+  {
+    "ID Componente": "BRB 2044",
+    "Tipo de Componente": "Tarjeta de Control de Eje",
+    "Ubicación en el Sistema": "Panel Eléctrico (LTE 240)",
+    "Función Principal": "Manejo del movimiento horizontal y posición de la carreta.",
+    "Notas, Indicadores y Observaciones": "Procesa entradas de sensores de posición PSW4 a PSW7 y comunicación por fibra óptica."
+  },
+  {
+    "ID Componente": "BRB 2043",
+    "Tipo de Componente": "Tarjeta Control Eje Vertical",
+    "Ubicación en el Sistema": "Panel Eléctrico (LTE 240)",
+    "Función Principal": "Control del movimiento vertical de la carreta y calibración de altura.",
+    "Notas, Indicadores y Observaciones": "Conectada al encoder vertical EC6 y servomotor M8."
+  },
+  {
+    "ID Componente": "BRB 2045",
+    "Tipo de Componente": "Tarjeta Interfaz de Control",
+    "Ubicación en el Sistema": "Panel Eléctrico (LTE 240)",
+    "Función Principal": "Interfaz de potencia y diagnóstico para el Inversor 4.",
+    "Notas, Indicadores y Observaciones": "Equipada con LEDs de señalización de estado LD1 a LD5."
+  },
+  {
+    "ID Componente": "BRB 2048",
+    "Tipo de Componente": "Módulo / Tarjeta de Freno",
+    "Ubicación en el Sistema": "Panel Eléctrico (LTE 240)",
+    "Función Principal": "Módulo de control del freno dinámico/eléctrico del motor pisador.",
+    "Notas, Indicadores y Observaciones": "Conectores CN101/CN104; recibe alimentación desde el transformador TR3 e IA21."
+  },
+  {
+    "ID Componente": "BRB 2057",
+    "Tipo de Componente": "Tarjeta Interfaz Display",
+    "Ubicación en el Sistema": "Panel Trasero de Pantalla (LTE 240)",
+    "Función Principal": "Módulo de comunicación y renderizado del display de control.",
+    "Notas, Indicadores y Observaciones": "Enlazada por buses planos (CN87/88) y anillo de fibra óptica TX8/RX8."
+  },
+  {
+    "ID Componente": "BRB 2058",
+    "Tipo de Componente": "Tarjeta Indicadora Lámparas",
+    "Ubicación en el Sistema": "Panel Eléctrico (LTE 240)",
+    "Función Principal": "Control de las lámparas de señalización de la columna luminosa.",
+    "Notas, Indicadores y Observaciones": "Maneja la lámpara amarilla mediante el conector CN94."
+  },
+  {
+    "ID Componente": "BRB 2063",
+    "Tipo de Componente": "Tarjeta Serie Auxiliares",
+    "Ubicación en el Sistema": "Panel Eléctrico (LTE 240)",
+    "Función Principal": "Monitoreo y multiplexado de la cadena serie de automáticos/térmicos.",
+    "Notas, Indicadores y Observaciones": "Conectores CN1 y CN3; activa la Alarma Genérica IA si se abre la cadena."
+  },
+  {
+    "ID Componente": "BRB 2070",
+    "Tipo de Componente": "Tarjeta Interfaz Pisador",
+    "Ubicación en el Sistema": "Panel Eléctrico (LTE 240)",
+    "Función Principal": "Interfaz de sensores del pisador.",
+    "Notas, Indicadores y Observaciones": "Conector CN15 dedicado a la lectura del sensor de pisador PSW16."
+  },
+  {
+    "ID Componente": "BRB 2072",
+    "Tipo de Componente": "Tarjeta Distribuidora Sensores",
+    "Ubicación en el Sistema": "Panel Eléctrico (LTE 240)",
+    "Función Principal": "Concentrador de señales de fin de carrera, proximidad (PSW) y jumpers de desbloqueo.",
+    "Notas, Indicadores y Observaciones": "Contiene jumpers SW1, LEDs LD3-LD23 y conectores CN22 a CN51."
+  },
+  {
+    "ID Componente": "BRB 2073",
+    "Tipo de Componente": "Tarjeta Relés Velocidad",
+    "Ubicación en el Sistema": "Panel Eléctrico (LTE 240)",
+    "Función Principal": "Mapeo y conmutación de velocidades para el Inversor 1 (Motor M10).",
+    "Notas, Indicadores y Observaciones": "Alberga los relés electromecánicos RE35 a RE44."
+  },
+  {
+    "ID Componente": "BRB 2074",
+    "Tipo de Componente": "Tarjeta Interfaz Fotocélulas",
+    "Ubicación en el Sistema": "Estructura Carreta (LTE 240)",
+    "Función Principal": "Acondicionador de señal para receptores ópticos.",
+    "Notas, Indicadores y Observaciones": "Conectores CN52 (PH1/R presencia tela) y CN53 (PH2/R barrera de apilador)."
+  },
+  {
+    "ID Componente": "BRB 3013",
+    "Tipo de Componente": "Tarjeta Interfaz Eje Correa",
+    "Ubicación en el Sistema": "Cuadro de Correa (TF 235 / DIR)",
+    "Función Principal": "Control de movimiento, interfaz serie de datos y comunicación con Servodriver A1.",
+    "Notas, Indicadores y Observaciones": "Conectores CN55 a CN59. Revisa salidas READY y ENABLE."
+  },
+  {
+    "ID Componente": "BRB 3015",
+    "Tipo de Componente": "Tarjeta Madre e Interfaz I/O",
+    "Ubicación en el Sistema": "Panel TF 1-2, TF 3-4, TF 5 (DIR)",
+    "Función Principal": "Placa base distribuidora de señales de entrada de detectores, automáticos y salidas.",
+    "Notas, Indicadores y Observaciones": "Alberga los relés auxiliares RE10, RE11 y LED LD33 para diagnóstico de automáticos."
+  },
+  {
+    "ID Componente": "BRB 3016",
+    "Tipo de Componente": "Tarjeta Interfaz Esparcidor",
+    "Ubicación en el Sistema": "Panel TF (DIR)",
+    "Función Principal": "Recepción de señales de encoders (EC1-EC5), fin de carrera y apertura de esparcidores.",
+    "Notas, Indicadores y Observaciones": "Conectores CN12 a CN28 y LEDs de señalización por cada canal esparcidor."
+  },
+  {
+    "ID Componente": "BRB 3018",
+    "Tipo de Componente": "Tarjeta Distribuidora Señales",
+    "Ubicación en el Sistema": "Paneles TF 1-2, TF 3-4, TF 5 (DIR)",
+    "Función Principal": "Distribución general de buses, señales de presencia de tela (IN00-IN02) y alimentación +24V.",
+    "Notas, Indicadores y Observaciones": "Puntos de prueba TP1-TP6 y barra de diodos LED LD1 a LD32 para estado de entradas."
+  },
+  {
+    "ID Componente": "BRB 3019",
+    "Tipo de Componente": "Tarjeta Módulo Inversores",
+    "Ubicación en el Sistema": "Panel TF (DIR)",
+    "Función Principal": "Gestión e interfaz de comando para los inversores de los motores de rollos.",
+    "Notas, Indicadores y Observaciones": "LEDs LD33 a LD37 para monitoreo de estado y fallos de tracción."
+  },
+  {
+    "ID Componente": "BRB 3030",
+    "Tipo de Componente": "Tarjeta Fuentes / Tensiones",
+    "Ubicación en el Sistema": "Panel Eléctrico (DIR)",
+    "Función Principal": "Regulación y filtrado de las líneas de alimentación (+5V, +12V, -12V).",
+    "Notas, Indicadores y Observaciones": "Indicadores LED LD1, LD2 y LD3 para verificar la presencia de voltajes."
+  },
+  {
+    "ID Componente": "BRB 3042",
+    "Tipo de Componente": "Interfaz Inversor 3",
+    "Ubicación en el Sistema": "Panel Inversor 3 (LTE 240)",
+    "Función Principal": "Interfaz de control y procesado de encoder para la mesa de descarga.",
+    "Notas, Indicadores y Observaciones": "Conector CN107 hacia encoder; envía pulso al conector CN116 de BRB 8000."
+  },
+  {
+    "ID Componente": "BRB 3075",
+    "Tipo de Componente": "Tarjeta Interfase Externa",
+    "Ubicación en el Sistema": "Panel Eléctrico (LTE 240)",
+    "Función Principal": "Canalización de las señales del módulo de alimentación DIR hacia el rack principal.",
+    "Notas, Indicadores y Observaciones": "Recepción del bucle de disparo térmico (Línea 76) en el conector CN26."
+  },
+  {
+    "ID Componente": "BRB 6032 / 6034",
+    "Tipo de Componente": "Tarjeta Relés de Rollos",
+    "Ubicación en el Sistema": "Panel TF 1-2, TF 3-4, TF 5 (DIR)",
+    "Función Principal": "Conmutación de sentido de giro de alimentadores e inversores de rollos (RE24 a RE28).",
+    "Notas, Indicadores y Observaciones": "Contiene relés de inversión de giro y relé Watchdog general RE12."
+  },
+  {
+    "ID Componente": "LEA 2010 IND. 0 / 1",
+    "Tipo de Componente": "Tarjetas de Entradas Digitales",
+    "Ubicación en el Sistema": "Rack PCO 3272 (LTE 240)",
+    "Función Principal": "Recepción de señales físicas de micros, sensores y confirmación de inverters.",
+    "Notas, Indicadores y Observaciones": "IND. 0 maneja Bits 00 a 23; IND. 1 maneja Bits 24 a 47 (incluye IN34 de inverters)."
+  },
+  {
+    "ID Componente": "LEA 2020 IND. 3 / 4 / 5",
+    "Tipo de Componente": "Tarjetas de Salidas Digitales",
+    "Ubicación en el Sistema": "Rack PCO 3272 (LTE 240)",
+    "Función Principal": "Activación de relés, electroválvulas y motores auxiliares.",
+    "Notas, Indicadores y Observaciones": "Salidas OUT0-7 (IND. 3), OUT8-15 (IND. 4) y OUT16-23 (IND. 5)."
+  },
+  {
+    "ID Componente": "Servodriver A1",
+    "Tipo de Componente": "Servo-controlador de Potencia",
+    "Ubicación en el Sistema": "Cuadro de Correa (TF 235 / DIR)",
+    "Función Principal": "Variador y posicionador del motor de la correa transportadora M13.",
+    "Notas, Indicadores y Observaciones": "Cuenta con LEDs de diagnóstico: RUN (Verde = Operativo) y STS (Rojo = Fallo)."
+  },
+  {
+    "ID Componente": "IA4",
+    "Tipo de Componente": "Interruptor Magnetotérmico",
+    "Ubicación en el Sistema": "Cuadro Eléctrico (LTE 240)",
+    "Función Principal": "Protección de la línea de alimentación de sensores y fotocélulas (+18V).",
+    "Notas, Indicadores y Observaciones": "Su disparo deshabilita la fotocélula PH1/R."
+  },
+  {
+    "ID Componente": "IA5 a IA22",
+    "Tipo de Componente": "Cadena de Magnetotérmicos",
+    "Ubicación en el Sistema": "Cuadro Eléctrico (LTE 240)",
+    "Función Principal": "Protección individual de circuitos de potencia y maniobra.",
+    "Notas, Indicadores y Observaciones": "Conectados en serie; si uno falla, activa la Alarma Genérica IA."
+  },
+  {
+    "ID Componente": "IA20 / IA21",
+    "Tipo de Componente": "Interruptores Automáticos",
+    "Ubicación en el Sistema": "Cuadro Eléctrico (LTE 240)",
+    "Función Principal": "Protección para transformadores TR2 (rollos) y TR3 (freno motor pisador).",
+    "Notas, Indicadores y Observaciones": "IA20 protege bobinas EM1/EM3; IA21 protege módulo BRB 2048."
+  },
+  {
+    "ID Componente": "IA31 a IA38 / IA45-46",
+    "Tipo de Componente": "Térmicos Módulo Alimentador",
+    "Ubicación en el Sistema": "Paneles TF 1-2, TF 3-4 y TF 5 (DIR)",
+    "Función Principal": "Protección de los motores de tracción y esparcidores del modulo DIR.",
+    "Notas, Indicadores y Observaciones": "Envían señal de disparo serie (Línea 76) mediante RE11 a la LTE 240."
+  },
+  {
+    "ID Componente": "IA40",
+    "Tipo de Componente": "Magnetotérmico de Correa",
+    "Ubicación en el Sistema": "Panel Movimiento Correa (DIR)",
+    "Función Principal": "Protección térmica del circuito del Servodriver A1 / Motor M13.",
+    "Notas, Indicadores y Observaciones": "Calibrado en rango de 1.8 A a 2.5 A (Capacidad nominal 2 A)."
+  },
+  {
+    "ID Componente": "TR2 / TR3",
+    "Tipo de Componente": "Transformadores de Potencia",
+    "Ubicación en el Sistema": "Panel Eléctrico (LTE 240)",
+    "Función Principal": "TR2: Tensión secundario rollos (0-89-147V). TR3: Alimentación módulo de freno.",
+    "Notas, Indicadores y Observaciones": "Protegidos mediante los automáticos IA20 e IA21 respectivamente."
+  },
+  {
+    "ID Componente": "RE26",
+    "Tipo de Componente": "Relé Auxiliar de Maniobra",
+    "Ubicación en el Sistema": "Panel Eléctrico (LTE 240)",
+    "Función Principal": "Activación de la bomba de lubricación automática.",
+    "Notas, Indicadores y Observaciones": "Comandado por la salida OUT16 de la tarjeta LEA 2020 IND. 5."
+  },
+  {
+    "ID Componente": "RT1",
+    "Tipo de Componente": "Relé / Termostato Térmico",
+    "Ubicación en el Sistema": "Cuadro de Correa (DIR)",
+    "Función Principal": "Monitoreo térmico ambiental y protección del cuadro.",
+    "Notas, Indicadores y Observaciones": "Interrumpe la línea de señal si se detecta sobrecalentamiento."
+  },
+  {
+    "ID Componente": "EC5 / EC6 / EC7",
+    "Tipo de Componente": "Encoders Incrementales",
+    "Ubicación en el Sistema": "Varios puntos mecánicos",
+    "Función Principal": "EC5: Posición horizontal carreta. EC6: Altura de carreta. EC7: Potenciómetro de correa.",
+    "Notas, Indicadores y Observaciones": "EC5 va a BRB 2072/CN51; EC6 va a BRB 8000/CN117; EC7 va a CPU BRB 8900."
+  },
+  {
+    "ID Componente": "PSW1 a PSW16",
+    "Tipo de Componente": "Detectores de Proximidad",
+    "Ubicación en el Sistema": "Estructura Mecánica LTE / DIR",
+    "Función Principal": "Leen posiciones del pisador, carreta, mesa de descarga y apertura del eje acanalado.",
+    "Notas, Indicadores y Observaciones": "Conectados a BRB 2072, BRB 2070 (LTE) y BRB 3016 (DIR)."
+  },
+  {
+    "ID Componente": "PH1 / PH2 / PH5",
+    "Tipo de Componente": "Fotocélulas Ópticas",
+    "Ubicación en el Sistema": "Carreta, Apilador y Módulo DIR",
+    "Función Principal": "PH1: Presencia de tela en carreta. PH2: Barrera apilador. PH1-PH5: Falta de tela DIR.",
+    "Notas, Indicadores y Observaciones": "PH1/PH2 se conectan a BRB 2074; PH1-5 del DIR ingresan a BRB 3016/BRB 3018."
+  }
+]

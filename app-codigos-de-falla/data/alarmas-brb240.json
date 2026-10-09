@@ -1,0 +1,1104 @@
+[
+  {
+    "id": "001-desc-1",
+    "code": "001",
+    "title": "ALARMA # 001 (mayúsculas)",
+    "cause": "Encoder carreta vertical EC6 no conectado o defectuoso, o falta de movimiento en tiempo establecido después de la relativa señal de control.",
+    "diagnosis": "Falla:  Encoder vertical de carreta EC6 / Falla de calibración de altura.\nUbicación en el circuito (LTE 240):\nPágina 53: Servomotor M8 y conector de encoder EC6.\nPágina 56: Conector CN117 en la tarjeta CPU BRB 8000.\nPágina 76: Tarjeta de control de eje vertical BRB 2043.",
+    "manualPage": 91,
+    "displayHint": "ALARMA # 001 (mayúsculas)",
+    "descriptionCause": "Encoder carreta vertical EC6 no conectado o defectuoso, o falta de movimiento en tiempo establecido después de la relativa señal de control.",
+    "descriptionLocation": "Controlar la funcionalidad del encoder y sus conexiones a la tarjeta BRB 8000. Verificar el movimiento del encoder y su conexión a la tarjeta BRB 8000.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #001 / #002 (Pág. 91)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Encoder vertical de carreta EC6 / Falla de calibración de altura.\nUbicación en el circuito (LTE 240):\nPágina 53: Servomotor M8 y conector de encoder EC6.\nPágina 56: Conector CN117 en la tarjeta CPU BRB 8000.\nPágina 76: Tarjeta de control de eje vertical BRB 2043."
+      }
+    ]
+  },
+  {
+    "id": "001-desc-2",
+    "code": "001",
+    "title": "ALARMA # 001 (minúsculas)",
+    "cause": "Calibración movimiento vertical carreta no llevada a cabo o no correcta, o RAM de la BRB 8000 defectuosa.",
+    "diagnosis": "Falla:  Encoder vertical de carreta EC6 / Falla de calibración de altura.\nUbicación en el circuito (LTE 240):\nPágina 53: Servomotor M8 y conector de encoder EC6.\nPágina 56: Conector CN117 en la tarjeta CPU BRB 8000.\nPágina 76: Tarjeta de control de eje vertical BRB 2043.",
+    "manualPage": 91,
+    "displayHint": "ALARMA # 001 (minúsculas)",
+    "descriptionCause": "Calibración movimiento vertical carreta no llevada a cabo o no correcta, o RAM de la BRB 8000 defectuosa.",
+    "descriptionLocation": "Apagar y encender. Luego llevar a cabo el movimiento vertical de carreta y calibración. Verificar la tarjeta BRB 8000.",
+    "blocksMachine": "NO",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #001 / #002 (Pág. 91)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Encoder vertical de carreta EC6 / Falla de calibración de altura.\nUbicación en el circuito (LTE 240):\nPágina 53: Servomotor M8 y conector de encoder EC6.\nPágina 56: Conector CN117 en la tarjeta CPU BRB 8000.\nPágina 76: Tarjeta de control de eje vertical BRB 2043."
+      }
+    ]
+  },
+  {
+    "id": "002-desc-1",
+    "code": "002",
+    "title": "ALARMA # 002",
+    "cause": "PSW1 – Carreta alto = ON\nPSW3 – Carreta bajo = ON",
+    "diagnosis": "Falla:  Encoder vertical de carreta EC6 / Falla de calibración de altura.\nUbicación en el circuito (LTE 240):\nPágina 53: Servomotor M8 y conector de encoder EC6.\nPágina 56: Conector CN117 en la tarjeta CPU BRB 8000.\nPágina 76: Tarjeta de control de eje vertical BRB 2043.",
+    "manualPage": 91,
+    "displayHint": "ALARMA # 002",
+    "descriptionCause": "PSW1 – Carreta alto = ON\nPSW3 – Carreta bajo = ON",
+    "descriptionLocation": "Ver B.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #001 / #002 (Pág. 91)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Encoder vertical de carreta EC6 / Falla de calibración de altura.\nUbicación en el circuito (LTE 240):\nPágina 53: Servomotor M8 y conector de encoder EC6.\nPágina 56: Conector CN117 en la tarjeta CPU BRB 8000.\nPágina 76: Tarjeta de control de eje vertical BRB 2043."
+      }
+    ]
+  },
+  {
+    "id": "003-desc-1",
+    "code": "003",
+    "title": "ALARMA # 003",
+    "cause": "Señal inversión del encoder carreta vertical EC6.",
+    "diagnosis": "Falla:  PSW1 (arriba) y PSW3 (abajo) activos al mismo tiempo.\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: PSW1 (CN37) y PSW3 (CN39) en la tarjeta BRB 2072.\nMáscaras de Diagnóstico:  Bits 08 (PSW1) y 10 (PSW3) en LEA 2010 IND. 0.",
+    "manualPage": 91,
+    "displayHint": "ALARMA # 003",
+    "descriptionCause": "Señal inversión del encoder carreta vertical EC6.",
+    "descriptionLocation": "Chequear la funcionalidad del encoder EC6 y la conexión a la tarjeta BRB 8000.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #003 (Pág. 91)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  PSW1 (arriba) y PSW3 (abajo) activos al mismo tiempo.\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: PSW1 (CN37) y PSW3 (CN39) en la tarjeta BRB 2072.\nMáscaras de Diagnóstico:  Bits 08 (PSW1) y 10 (PSW3) en LEA 2010 IND. 0."
+      }
+    ]
+  },
+  {
+    "id": "004-desc-1",
+    "code": "004",
+    "title": "ALARMA # 004",
+    "cause": "Ciclo prensa interferente con curso de carreta.\nPSW7 – Carreta fuera de prensa siempre OFF o defectuosa.\nPSW9 – Carreta sin pisador siempre OFF o defectuosa o en posición incorrecta.",
+    "diagnosis": "Falla:  Interferencia mecánica/secuencia carreta y pisador (PSW9 OFF y PSW7 OFF).\nUbicación en el circuito:\nPágina 24 (LTE 240): Método de desbloqueo mecánico.\nPáginas 49 y 80 (LTE 240): PSW7 (CN43) y PSW9 (CN45) en BRB 2072.\nPágina 21 (Manual Mantenimiento / Bierrebi): Procedimiento de desbloqueo mediante cambio de puente en la tarjeta BRB 2072.\nMáscaras de Diagnóstico:  Bits 14 (PSW7) y 17 (PSW9).",
+    "manualPage": 91,
+    "displayHint": "ALARMA # 004",
+    "descriptionCause": "Ciclo prensa interferente con curso de carreta.\nPSW7 – Carreta fuera de prensa siempre OFF o defectuosa.\nPSW9 – Carreta sin pisador siempre OFF o defectuosa o en posición incorrecta.",
+    "descriptionLocation": "Ver B.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #004 (Pág. 91)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Interferencia mecánica/secuencia carreta y pisador (PSW9 OFF y PSW7 OFF).\nUbicación en el circuito:\nPágina 24 (LTE 240): Método de desbloqueo mecánico.\nPáginas 49 y 80 (LTE 240): PSW7 (CN43) y PSW9 (CN45) en BRB 2072.\nPágina 21 (Manual Mantenimiento / Bierrebi): Procedimiento de desbloqueo mediante cambio de puente en la tarjeta BRB 2072.\nMáscaras de Diagnóstico:  Bits 14 (PSW7) y 17 (PSW9)."
+      }
+    ]
+  },
+  {
+    "id": "005-desc-1",
+    "code": "005",
+    "title": "ALARMA # 005",
+    "cause": "PSW10 – Pisador bajo siempre ON o defectuoso.",
+    "diagnosis": "Falla:  Incoherencia de posiciones del pisador (PSW8, PSW9, PSW10, PSW16).\nUbicación en el circuito (LTE 240):\nPáginas 49, 50 y 80: Conectores CN44 (PSW8), CN45 (PSW9) y CN46 (PSW10) en BRB 2072; PSW16 en CN15 de BRB 2070.\nMáscaras de Diagnóstico:  Bits 16, 17, 18 y 35.",
+    "manualPage": 91,
+    "displayHint": "ALARMA # 005",
+    "descriptionCause": "PSW10 – Pisador bajo siempre ON o defectuoso.",
+    "descriptionLocation": "Ver B.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #005 a #010 (Pág. 91)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Incoherencia de posiciones del pisador (PSW8, PSW9, PSW10, PSW16).\nUbicación en el circuito (LTE 240):\nPáginas 49, 50 y 80: Conectores CN44 (PSW8), CN45 (PSW9) y CN46 (PSW10) en BRB 2072; PSW16 en CN15 de BRB 2070.\nMáscaras de Diagnóstico:  Bits 16, 17, 18 y 35."
+      }
+    ]
+  },
+  {
+    "id": "006-desc-1",
+    "code": "006",
+    "title": "ALARMA # 006",
+    "cause": "PSW8 – Pisador alto siempre ON, o bien\nPSW9 – Pisador medio siempre OFF o defectuoso.",
+    "diagnosis": "Falla:  Incoherencia de posiciones del pisador (PSW8, PSW9, PSW10, PSW16).\nUbicación en el circuito (LTE 240):\nPáginas 49, 50 y 80: Conectores CN44 (PSW8), CN45 (PSW9) y CN46 (PSW10) en BRB 2072; PSW16 en CN15 de BRB 2070.\nMáscaras de Diagnóstico:  Bits 16, 17, 18 y 35.",
+    "manualPage": 91,
+    "displayHint": "ALARMA # 006",
+    "descriptionCause": "PSW8 – Pisador alto siempre ON, o bien\nPSW9 – Pisador medio siempre OFF o defectuoso.",
+    "descriptionLocation": "Ver B.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #005 a #010 (Pág. 91)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Incoherencia de posiciones del pisador (PSW8, PSW9, PSW10, PSW16).\nUbicación en el circuito (LTE 240):\nPáginas 49, 50 y 80: Conectores CN44 (PSW8), CN45 (PSW9) y CN46 (PSW10) en BRB 2072; PSW16 en CN15 de BRB 2070.\nMáscaras de Diagnóstico:  Bits 16, 17, 18 y 35."
+      }
+    ]
+  },
+  {
+    "id": "007-desc-1",
+    "code": "007",
+    "title": "ALARMA # 007",
+    "cause": "PSW6 – Stop carreta a lado descarga siempre ON o defectuoso.",
+    "diagnosis": "Falla:  Incoherencia de posiciones del pisador (PSW8, PSW9, PSW10, PSW16).\nUbicación en el circuito (LTE 240):\nPáginas 49, 50 y 80: Conectores CN44 (PSW8), CN45 (PSW9) y CN46 (PSW10) en BRB 2072; PSW16 en CN15 de BRB 2070.\nMáscaras de Diagnóstico:  Bits 16, 17, 18 y 35.",
+    "manualPage": 91,
+    "displayHint": "ALARMA # 007",
+    "descriptionCause": "PSW6 – Stop carreta a lado descarga siempre ON o defectuoso.",
+    "descriptionLocation": "Ver B.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #005 a #010 (Pág. 91)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Incoherencia de posiciones del pisador (PSW8, PSW9, PSW10, PSW16).\nUbicación en el circuito (LTE 240):\nPáginas 49, 50 y 80: Conectores CN44 (PSW8), CN45 (PSW9) y CN46 (PSW10) en BRB 2072; PSW16 en CN15 de BRB 2070.\nMáscaras de Diagnóstico:  Bits 16, 17, 18 y 35."
+      }
+    ]
+  },
+  {
+    "id": "008-desc-1",
+    "code": "008",
+    "title": "ALARMA # 008",
+    "cause": "PSW9 – Pisador medio siempre ON o defectuoso.\nPSW10 – Pisador bajo siempre ON o defectuoso.\nPSW16 – Pisador casi media altura siempre ON o defectuoso.",
+    "diagnosis": "Falla:  Incoherencia de posiciones del pisador (PSW8, PSW9, PSW10, PSW16).\nUbicación en el circuito (LTE 240):\nPáginas 49, 50 y 80: Conectores CN44 (PSW8), CN45 (PSW9) y CN46 (PSW10) en BRB 2072; PSW16 en CN15 de BRB 2070.\nMáscaras de Diagnóstico:  Bits 16, 17, 18 y 35.",
+    "manualPage": 91,
+    "displayHint": "ALARMA # 008",
+    "descriptionCause": "PSW9 – Pisador medio siempre ON o defectuoso.\nPSW10 – Pisador bajo siempre ON o defectuoso.\nPSW16 – Pisador casi media altura siempre ON o defectuoso.",
+    "descriptionLocation": "Ver B.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #005 a #010 (Pág. 91)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Incoherencia de posiciones del pisador (PSW8, PSW9, PSW10, PSW16).\nUbicación en el circuito (LTE 240):\nPáginas 49, 50 y 80: Conectores CN44 (PSW8), CN45 (PSW9) y CN46 (PSW10) en BRB 2072; PSW16 en CN15 de BRB 2070.\nMáscaras de Diagnóstico:  Bits 16, 17, 18 y 35."
+      }
+    ]
+  },
+  {
+    "id": "009-desc-1",
+    "code": "009",
+    "title": "ALARMA # 009",
+    "cause": "PSW10 – Pisador bajo siempre OFF.",
+    "diagnosis": "Falla:  Incoherencia de posiciones del pisador (PSW8, PSW9, PSW10, PSW16).\nUbicación en el circuito (LTE 240):\nPáginas 49, 50 y 80: Conectores CN44 (PSW8), CN45 (PSW9) y CN46 (PSW10) en BRB 2072; PSW16 en CN15 de BRB 2070.\nMáscaras de Diagnóstico:  Bits 16, 17, 18 y 35.",
+    "manualPage": 91,
+    "displayHint": "ALARMA # 009",
+    "descriptionCause": "PSW10 – Pisador bajo siempre OFF.",
+    "descriptionLocation": "Ver B.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #005 a #010 (Pág. 91)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Incoherencia de posiciones del pisador (PSW8, PSW9, PSW10, PSW16).\nUbicación en el circuito (LTE 240):\nPáginas 49, 50 y 80: Conectores CN44 (PSW8), CN45 (PSW9) y CN46 (PSW10) en BRB 2072; PSW16 en CN15 de BRB 2070.\nMáscaras de Diagnóstico:  Bits 16, 17, 18 y 35."
+      }
+    ]
+  },
+  {
+    "id": "010-desc-1",
+    "code": "010",
+    "title": "ALARMA # 010",
+    "cause": "PSW8 – Pisador alto siempre OFF o defectuoso.\nPSW9 – Pisador medio defectuoso.",
+    "diagnosis": "Falla:  Incoherencia de posiciones del pisador (PSW8, PSW9, PSW10, PSW16).\nUbicación en el circuito (LTE 240):\nPáginas 49, 50 y 80: Conectores CN44 (PSW8), CN45 (PSW9) y CN46 (PSW10) en BRB 2072; PSW16 en CN15 de BRB 2070.\nMáscaras de Diagnóstico:  Bits 16, 17, 18 y 35.",
+    "manualPage": 91,
+    "displayHint": "ALARMA # 010",
+    "descriptionCause": "PSW8 – Pisador alto siempre OFF o defectuoso.\nPSW9 – Pisador medio defectuoso.",
+    "descriptionLocation": "Ver B.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #005 a #010 (Pág. 91)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Incoherencia de posiciones del pisador (PSW8, PSW9, PSW10, PSW16).\nUbicación en el circuito (LTE 240):\nPáginas 49, 50 y 80: Conectores CN44 (PSW8), CN45 (PSW9) y CN46 (PSW10) en BRB 2072; PSW16 en CN15 de BRB 2070.\nMáscaras de Diagnóstico:  Bits 16, 17, 18 y 35."
+      }
+    ]
+  },
+  {
+    "id": "011-desc-1",
+    "code": "011",
+    "title": "ALARMA # 011",
+    "cause": "PSW1 – Carreta alto siempre ON o defectuoso.",
+    "diagnosis": "Falla:  Incoherencia en mesa de descarga (PSW11 cerrada / PSW12 abierta).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN47 (PSW11) y CN48 (PSW12) en BRB 2072.\nMáscaras de Diagnóstico:  Bits 19 y 20.",
+    "manualPage": 91,
+    "displayHint": "ALARMA # 011",
+    "descriptionCause": "PSW1 – Carreta alto siempre ON o defectuoso.",
+    "descriptionLocation": "Ver B.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #011 / #012 (Pág. 91)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Incoherencia en mesa de descarga (PSW11 cerrada / PSW12 abierta).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN47 (PSW11) y CN48 (PSW12) en BRB 2072.\nMáscaras de Diagnóstico:  Bits 19 y 20."
+      }
+    ]
+  },
+  {
+    "id": "012-desc-1",
+    "code": "012",
+    "title": "ALARMA # 012",
+    "cause": "PSW12 – Descarga abierta siempre OFF o defectuosa.\nPSW11 – Descarga cerrada siempre OFF o defectuosa.",
+    "diagnosis": "Falla:  Incoherencia en mesa de descarga (PSW11 cerrada / PSW12 abierta).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN47 (PSW11) y CN48 (PSW12) en BRB 2072.\nMáscaras de Diagnóstico:  Bits 19 y 20.",
+    "manualPage": 91,
+    "displayHint": "ALARMA # 012",
+    "descriptionCause": "PSW12 – Descarga abierta siempre OFF o defectuosa.\nPSW11 – Descarga cerrada siempre OFF o defectuosa.",
+    "descriptionLocation": "Ver B.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #011 / #012 (Pág. 91)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Incoherencia en mesa de descarga (PSW11 cerrada / PSW12 abierta).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN47 (PSW11) y CN48 (PSW12) en BRB 2072.\nMáscaras de Diagnóstico:  Bits 19 y 20."
+      }
+    ]
+  },
+  {
+    "id": "013-desc-1",
+    "code": "013",
+    "title": "ALARMA # 013",
+    "cause": "Encoder descarga defectuosa o no conectada (BRB 3042), o falta de movimiento entre el tiempo establecido después de señal de control relativa.",
+    "diagnosis": "Falla:  Encoder de la mesa de descarga desconectado/averiado.\nUbicación en el circuito (LTE 240):\nPágina 56: Señal de encoder desde BRB 3042 a CN116 en CPU BRB 8000.\nPágina 77: Panel del Inversor 3 (BRB 3042 / CN107).",
+    "manualPage": 91,
+    "displayHint": "ALARMA # 013",
+    "descriptionCause": "Encoder descarga defectuosa o no conectada (BRB 3042), o falta de movimiento entre el tiempo establecido después de señal de control relativa.",
+    "descriptionLocation": "Chequear la conexión de la tarjeta BRB 3042 y la CPU BRB 8000. Verificar la conexión entre BRB 3042 y BRB 8000 (CPU card).",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #013 (Pág. 91)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Encoder de la mesa de descarga desconectado/averiado.\nUbicación en el circuito (LTE 240):\nPágina 56: Señal de encoder desde BRB 3042 a CN116 en CPU BRB 8000.\nPágina 77: Panel del Inversor 3 (BRB 3042 / CN107)."
+      }
+    ]
+  },
+  {
+    "id": "014-desc-1",
+    "code": "014",
+    "title": "ALARMA # 014",
+    "cause": "PSW13 – Apilador alto y PSW14 – Apilador bajo simultáneamente ON, o PSW14 siempre ON.",
+    "diagnosis": "Falla:  Apilador fuera de límites (PSW13, PSW14, MSW5).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN49 (PSW13), CN50 (PSW14) y CN33 (MSW5).\nMáscaras de Diagnóstico:  Bits 05, 21 y 22.",
+    "manualPage": 91,
+    "displayHint": "ALARMA # 014",
+    "descriptionCause": "PSW13 – Apilador alto y PSW14 – Apilador bajo simultáneamente ON, o PSW14 siempre ON.",
+    "descriptionLocation": "Ver B.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #014 / #015 (Págs. 91 y 92)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Apilador fuera de límites (PSW13, PSW14, MSW5).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN49 (PSW13), CN50 (PSW14) y CN33 (MSW5).\nMáscaras de Diagnóstico:  Bits 05, 21 y 22."
+      }
+    ]
+  },
+  {
+    "id": "015-desc-1",
+    "code": "015",
+    "title": "ALARMA # 015",
+    "cause": "MSW5 – Stack compacto siempre OFF o sobrecargado.",
+    "diagnosis": "Falla:  Apilador fuera de límites (PSW13, PSW14, MSW5).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN49 (PSW13), CN50 (PSW14) y CN33 (MSW5).\nMáscaras de Diagnóstico:  Bits 05, 21 y 22.",
+    "manualPage": 91,
+    "displayHint": "ALARMA # 015",
+    "descriptionCause": "MSW5 – Stack compacto siempre OFF o sobrecargado.",
+    "descriptionLocation": "Ver B.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #014 / #015 (Págs. 91 y 92)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Apilador fuera de límites (PSW13, PSW14, MSW5).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN49 (PSW13), CN50 (PSW14) y CN33 (MSW5).\nMáscaras de Diagnóstico:  Bits 05, 21 y 22."
+      }
+    ]
+  },
+  {
+    "id": "016-desc-1",
+    "code": "016",
+    "title": "ALARMA # 016",
+    "cause": "PSW4 – Carreta stop al lado alimentación siempre ON o defectuoso.",
+    "diagnosis": "Falla:  Sensores de posición de la carreta fuera de secuencia (PSW4, PSW5, PSW6, PSW7).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN40 (PSW4), CN41 (PSW5), CN42 (PSW6), CN43 (PSW7) en BRB 2072.\nPágina 55: Entradas físicas enviadas a la tarjeta de eje BRB 2044.\nMáscaras de Diagnóstico:  Bits 64, 65, 66 en BRB 2044.",
+    "manualPage": 92,
+    "displayHint": "ALARMA # 016",
+    "descriptionCause": "PSW4 – Carreta stop al lado alimentación siempre ON o defectuoso.",
+    "descriptionLocation": "Ver B.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #016 / #017 / #019 / #020 / #021 (Pág. 92)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Sensores de posición de la carreta fuera de secuencia (PSW4, PSW5, PSW6, PSW7).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN40 (PSW4), CN41 (PSW5), CN42 (PSW6), CN43 (PSW7) en BRB 2072.\nPágina 55: Entradas físicas enviadas a la tarjeta de eje BRB 2044.\nMáscaras de Diagnóstico:  Bits 64, 65, 66 en BRB 2044."
+      }
+    ]
+  },
+  {
+    "id": "017-desc-1",
+    "code": "017",
+    "title": "ALARMA # 017",
+    "cause": "PSW11 – Descarga cerrada siempre ON o defectuoso, o\nPSW12 – Descarga abierta siempre ON o defectuoso, o ambas ON.",
+    "diagnosis": "Falla:  Sensores de posición de la carreta fuera de secuencia (PSW4, PSW5, PSW6, PSW7).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN40 (PSW4), CN41 (PSW5), CN42 (PSW6), CN43 (PSW7) en BRB 2072.\nPágina 55: Entradas físicas enviadas a la tarjeta de eje BRB 2044.\nMáscaras de Diagnóstico:  Bits 64, 65, 66 en BRB 2044.",
+    "manualPage": 92,
+    "displayHint": "ALARMA # 017",
+    "descriptionCause": "PSW11 – Descarga cerrada siempre ON o defectuoso, o\nPSW12 – Descarga abierta siempre ON o defectuoso, o ambas ON.",
+    "descriptionLocation": "Ver B.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #016 / #017 / #019 / #020 / #021 (Pág. 92)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Sensores de posición de la carreta fuera de secuencia (PSW4, PSW5, PSW6, PSW7).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN40 (PSW4), CN41 (PSW5), CN42 (PSW6), CN43 (PSW7) en BRB 2072.\nPágina 55: Entradas físicas enviadas a la tarjeta de eje BRB 2044.\nMáscaras de Diagnóstico:  Bits 64, 65, 66 en BRB 2044."
+      }
+    ]
+  },
+  {
+    "id": "019-desc-1",
+    "code": "019",
+    "title": "ALARMA # 019",
+    "cause": "PSW7 – Carreta sin pisador siempre ON o defectuoso.",
+    "diagnosis": "Falla:  Sensores de posición de la carreta fuera de secuencia (PSW4, PSW5, PSW6, PSW7).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN40 (PSW4), CN41 (PSW5), CN42 (PSW6), CN43 (PSW7) en BRB 2072.\nPágina 55: Entradas físicas enviadas a la tarjeta de eje BRB 2044.\nMáscaras de Diagnóstico:  Bits 64, 65, 66 en BRB 2044.",
+    "manualPage": 92,
+    "displayHint": "ALARMA # 019",
+    "descriptionCause": "PSW7 – Carreta sin pisador siempre ON o defectuoso.",
+    "descriptionLocation": "Si aparece fin de curso R: PSW7 siempre ON o defectuoso → Ver B.\nDespués de eso chequear encoder y tarjeta BRB 2044.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #016 / #017 / #019 / #020 / #021 (Pág. 92)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Sensores de posición de la carreta fuera de secuencia (PSW4, PSW5, PSW6, PSW7).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN40 (PSW4), CN41 (PSW5), CN42 (PSW6), CN43 (PSW7) en BRB 2072.\nPágina 55: Entradas físicas enviadas a la tarjeta de eje BRB 2044.\nMáscaras de Diagnóstico:  Bits 64, 65, 66 en BRB 2044."
+      }
+    ]
+  },
+  {
+    "id": "020-desc-1",
+    "code": "020",
+    "title": "ALARMA # 020",
+    "cause": "PSW5 – Carreta despacio al lado descarga siempre ON o siempre OFF o defectuoso o posicionado incorrectamente.",
+    "diagnosis": "Falla:  Sensores de posición de la carreta fuera de secuencia (PSW4, PSW5, PSW6, PSW7).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN40 (PSW4), CN41 (PSW5), CN42 (PSW6), CN43 (PSW7) en BRB 2072.\nPágina 55: Entradas físicas enviadas a la tarjeta de eje BRB 2044.\nMáscaras de Diagnóstico:  Bits 64, 65, 66 en BRB 2044.",
+    "manualPage": 92,
+    "displayHint": "ALARMA # 020",
+    "descriptionCause": "PSW5 – Carreta despacio al lado descarga siempre ON o siempre OFF o defectuoso o posicionado incorrectamente.",
+    "descriptionLocation": "Si aparece en reset con lentamiento correcto: LEA 2010 ind. 0 defectuosa → Ver B.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #016 / #017 / #019 / #020 / #021 (Pág. 92)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Sensores de posición de la carreta fuera de secuencia (PSW4, PSW5, PSW6, PSW7).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN40 (PSW4), CN41 (PSW5), CN42 (PSW6), CN43 (PSW7) en BRB 2072.\nPágina 55: Entradas físicas enviadas a la tarjeta de eje BRB 2044.\nMáscaras de Diagnóstico:  Bits 64, 65, 66 en BRB 2044."
+      }
+    ]
+  },
+  {
+    "id": "021-desc-1",
+    "code": "021",
+    "title": "ALARMA # 021",
+    "cause": "PSW7 – Carreta sin pisador siempre OFF o posicionado incorrectamente.",
+    "diagnosis": "Falla:  Sensores de posición de la carreta fuera de secuencia (PSW4, PSW5, PSW6, PSW7).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN40 (PSW4), CN41 (PSW5), CN42 (PSW6), CN43 (PSW7) en BRB 2072.\nPágina 55: Entradas físicas enviadas a la tarjeta de eje BRB 2044.\nMáscaras de Diagnóstico:  Bits 64, 65, 66 en BRB 2044.",
+    "manualPage": 92,
+    "displayHint": "ALARMA # 021",
+    "descriptionCause": "PSW7 – Carreta sin pisador siempre OFF o posicionado incorrectamente.",
+    "descriptionLocation": "Ver B.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #016 / #017 / #019 / #020 / #021 (Pág. 92)",
+        "category": "2. Alarmas Numéricas del Sistema (#001 a #021) (Páginas 91 y 92)",
+        "notes": "Falla:  Sensores de posición de la carreta fuera de secuencia (PSW4, PSW5, PSW6, PSW7).\nUbicación en el circuito (LTE 240):\nPáginas 49 y 80: Conectores CN40 (PSW4), CN41 (PSW5), CN42 (PSW6), CN43 (PSW7) en BRB 2072.\nPágina 55: Entradas físicas enviadas a la tarjeta de eje BRB 2044.\nMáscaras de Diagnóstico:  Bits 64, 65, 66 en BRB 2044."
+      }
+    ]
+  },
+  {
+    "id": "034-desc-1",
+    "code": "034",
+    "title": "ALARMA # 034 (minúsculas)",
+    "cause": "Memoria RAM de la CPU BRB 8000 no inicializada.",
+    "diagnosis": "Falla:  RAM no inicializada o falta de cable link #42 con el módulo DIR.\nComponentes / Ubicación:\nPáginas 48 y 67 (LTE 240): CPU Master BRB 8000 en rack PCO 3272.\nPágina 41 (TF 235): Interconexión de las líneas de señal de control entre el rack LTE y la tarjeta distribuidores BRB 3018 del DIR.",
+    "manualPage": 92,
+    "displayHint": "ALARMA # 034 (minúsculas)",
+    "descriptionCause": "Memoria RAM de la CPU BRB 8000 no inicializada.",
+    "descriptionLocation": "Aparece solo cuando la máquina está encendida y desaparece después de reset o después de apagar y encender la máquina.",
+    "blocksMachine": "NO",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #034 / #035 (Pág. 92)",
+        "category": "3. Alarmas de Módulos de Salida y Sistema (#034 a #111) (Páginas 92 y 93)",
+        "notes": "Falla:  RAM no inicializada o falta de cable link #42 con el módulo DIR.\nComponentes / Ubicación:\nPáginas 48 y 67 (LTE 240): CPU Master BRB 8000 en rack PCO 3272.\nPágina 41 (TF 235): Interconexión de las líneas de señal de control entre el rack LTE y la tarjeta distribuidores BRB 3018 del DIR."
+      }
+    ]
+  },
+  {
+    "id": "035-desc-1",
+    "code": "035",
+    "title": "ALARMA # 035 (minúsculas)",
+    "cause": "Falta de alambre link n.º 42 de DIR 1-2 a DIR 3-4.\nLa máquina sigue funcionando normalmente; solo las ampliaciones de DIR 1-2 no hacen el movimiento automático.",
+    "diagnosis": "Falla:  RAM no inicializada o falta de cable link #42 con el módulo DIR.\nComponentes / Ubicación:\nPáginas 48 y 67 (LTE 240): CPU Master BRB 8000 en rack PCO 3272.\nPágina 41 (TF 235): Interconexión de las líneas de señal de control entre el rack LTE y la tarjeta distribuidores BRB 3018 del DIR.",
+    "manualPage": 92,
+    "displayHint": "ALARMA # 035 (minúsculas)",
+    "descriptionCause": "Falta de alambre link n.º 42 de DIR 1-2 a DIR 3-4.\nLa máquina sigue funcionando normalmente; solo las ampliaciones de DIR 1-2 no hacen el movimiento automático.",
+    "descriptionLocation": "Compruebe la conexión del cable n.º 42 de DIR 1-2 a DIR 3-4.",
+    "blocksMachine": "NO",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #034 / #035 (Pág. 92)",
+        "category": "3. Alarmas de Módulos de Salida y Sistema (#034 a #111) (Páginas 92 y 93)",
+        "notes": "Falla:  RAM no inicializada o falta de cable link #42 con el módulo DIR.\nComponentes / Ubicación:\nPáginas 48 y 67 (LTE 240): CPU Master BRB 8000 en rack PCO 3272.\nPágina 41 (TF 235): Interconexión de las líneas de señal de control entre el rack LTE y la tarjeta distribuidores BRB 3018 del DIR."
+      }
+    ]
+  },
+  {
+    "id": "064-1",
+    "code": "064",
+    "title": "Alarma 064",
+    "cause": "Falla en salidas de la tarjeta LEA 2020 IND. 3.",
+    "diagnosis": "Bits 48 a 55.",
+    "manualPage": 92,
+    "displayHint": "ALARMA/ALARM 064",
+    "database": [
+      {
+        "heading": "ALARMA #064 / #072 (Pág. 92)",
+        "category": "3. Alarmas de Módulos de Salida y Sistema (#034 a #111) (Páginas 92 y 93)",
+        "notes": "Falla:  Falla en salidas de la tarjeta LEA 2020 IND. 3.\nUbicación en el circuito (LTE 240):\nPáginas 48, 63 y 67: Salidas OUT0 a OUT7 (líneas 48 a 55) en ranura 4 del rack PCO 3272.\nMáscaras de Diagnóstico:  Bits 48 a 55."
+      }
+    ]
+  },
+  {
+    "id": "072-desc-1",
+    "code": "072",
+    "title": "ALARMA # 072",
+    "cause": "Una o más salidas de la tarjeta LEA 2020 ind. 3 con nivel incorrecto. Debe ser = 0 y es = 1.\nOUT0 (48) OUT2 (50) OUT4 (52) OUT6 (54)\nOUT1 (49) OUT3 (51) OUT5 (53) OUT7 (55)",
+    "diagnosis": "Falla:  Falla en salidas de la tarjeta LEA 2020 IND. 3.\nUbicación en el circuito (LTE 240):\nPáginas 48, 63 y 67: Salidas OUT0 a OUT7 (líneas 48 a 55) en ranura 4 del rack PCO 3272.\nMáscaras de Diagnóstico:  Bits 48 a 55.",
+    "manualPage": 92,
+    "displayHint": "ALARMA # 072",
+    "descriptionCause": "Una o más salidas de la tarjeta LEA 2020 ind. 3 con nivel incorrecto. Debe ser = 0 y es = 1.\nOUT0 (48) OUT2 (50) OUT4 (52) OUT6 (54)\nOUT1 (49) OUT3 (51) OUT5 (53) OUT7 (55)",
+    "descriptionLocation": "Ver C.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #064 / #072 (Pág. 92)",
+        "category": "3. Alarmas de Módulos de Salida y Sistema (#034 a #111) (Páginas 92 y 93)",
+        "notes": "Falla:  Falla en salidas de la tarjeta LEA 2020 IND. 3.\nUbicación en el circuito (LTE 240):\nPáginas 48, 63 y 67: Salidas OUT0 a OUT7 (líneas 48 a 55) en ranura 4 del rack PCO 3272.\nMáscaras de Diagnóstico:  Bits 48 a 55."
+      }
+    ]
+  },
+  {
+    "id": "083-desc-1",
+    "code": "083",
+    "title": "ALARMA # 083",
+    "cause": "Ciclo bomba lubricación incorrecto. No bloquea la máquina pero permite solo el funcionamiento manual.\nLa lámpara roja de la columna luminosa está encendida.",
+    "diagnosis": "Falla:  Falla de lubricación automática.\nUbicación en el circuito (LTE 240):\nPáginas 50 y 60: Sensor MSW11 en conector CN21.\nPágina 64: Salida OUT16 en LEA 2020 IND. 5 que activa el relé RE26.\nMáscaras de Diagnóstico:  Bit 45 (IN 45); Bit 152 (OUT 16).",
+    "manualPage": 92,
+    "displayHint": "ALARMA # 083",
+    "descriptionCause": "Ciclo bomba lubricación incorrecto. No bloquea la máquina pero permite solo el funcionamiento manual.\nLa lámpara roja de la columna luminosa está encendida.",
+    "descriptionLocation": "Aire en el circuito de lubricación, o MSW11 bomba lubricadora, o tarjeta LEA 2020 ind. 4 defectuosa.\nLa alarma desaparece solo después de un ciclo de lubricación correcto y completo.",
+    "blocksMachine": "NO",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #083 (Pág. 92)",
+        "category": "3. Alarmas de Módulos de Salida y Sistema (#034 a #111) (Páginas 92 y 93)",
+        "notes": "Falla:  Falla de lubricación automática.\nUbicación en el circuito (LTE 240):\nPáginas 50 y 60: Sensor MSW11 en conector CN21.\nPágina 64: Salida OUT16 en LEA 2020 IND. 5 que activa el relé RE26.\nMáscaras de Diagnóstico:  Bit 45 (IN 45); Bit 152 (OUT 16)."
+      }
+    ]
+  },
+  {
+    "id": "084-desc-1",
+    "code": "084",
+    "title": "ALARMA # 084",
+    "cause": "Una o más salidas de la tarjeta LEA 2020 ind. 3 con nivel incorrecto. Debe ser = 1 y es = 0.\nOUT0 (48) OUT2 (50) OUT4 (52) OUT6 (54)\nOUT1 (49) OUT3 (51) OUT5 (53) OUT7 (55)",
+    "diagnosis": "",
+    "manualPage": null,
+    "displayHint": "ALARMA # 084",
+    "descriptionCause": "Una o más salidas de la tarjeta LEA 2020 ind. 3 con nivel incorrecto. Debe ser = 1 y es = 0.\nOUT0 (48) OUT2 (50) OUT4 (52) OUT6 (54)\nOUT1 (49) OUT3 (51) OUT5 (53) OUT7 (55)",
+    "descriptionLocation": "Probable cortocircuito en salida. Ver C.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": []
+  },
+  {
+    "id": "096-desc-1",
+    "code": "096",
+    "title": "ALARMA # 096",
+    "cause": "Una o más salidas de la tarjeta LEA 2020 ind. 4 con nivel incorrecto. Debería ser = 1 y es = 0.\nOUT8 (56) OUT10 (58) OUT12 (60) OUT14 (62)\nOUT9 (57) OUT11 (59) OUT13 (61) OUT15 (63)",
+    "diagnosis": "Falla:  Fallo de salidas en tarjeta LEA 2020 IND. 4.\nUbicación en el circuito (LTE 240):\nPágina 63: Salidas OUT8 a OUT15 (líneas 56 a 63).",
+    "manualPage": 93,
+    "displayHint": "ALARMA # 096",
+    "descriptionCause": "Una o más salidas de la tarjeta LEA 2020 ind. 4 con nivel incorrecto. Debería ser = 1 y es = 0.\nOUT8 (56) OUT10 (58) OUT12 (60) OUT14 (62)\nOUT9 (57) OUT11 (59) OUT13 (61) OUT15 (63)",
+    "descriptionLocation": "Cortocircuito probable en salida. Ver C.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #096 / #104 (Pág. 93)",
+        "category": "3. Alarmas de Módulos de Salida y Sistema (#034 a #111) (Páginas 92 y 93)",
+        "notes": "Falla:  Fallo de salidas en tarjeta LEA 2020 IND. 4.\nUbicación en el circuito (LTE 240):\nPágina 63: Salidas OUT8 a OUT15 (líneas 56 a 63)."
+      }
+    ]
+  },
+  {
+    "id": "099-desc-1",
+    "code": "099",
+    "title": "ALARMA # 099",
+    "cause": "Apilador arriba: señal salida ON (OUT5) y simultáneamente PH2 área apilador y barrera fotocélula activada.",
+    "diagnosis": "Falla:  Conflicto de elevación de apilador con la fotocélula de barrera PH2 activada.\nUbicación en el circuito (LTE 240):\nPágina 49: Receptor PH2/R (CN53 en BRB 2074).\nPágina 79: Control del Inversor 5 y barrera PH2.",
+    "manualPage": 93,
+    "displayHint": "ALARMA # 099",
+    "descriptionCause": "Apilador arriba: señal salida ON (OUT5) y simultáneamente PH2 área apilador y barrera fotocélula activada.",
+    "descriptionLocation": "Chequear la funcionalidad del inverter control apilador y de la fotocélula bloqueo apilador PH2.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #099 (Pág. 93)",
+        "category": "3. Alarmas de Módulos de Salida y Sistema (#034 a #111) (Páginas 92 y 93)",
+        "notes": "Falla:  Conflicto de elevación de apilador con la fotocélula de barrera PH2 activada.\nUbicación en el circuito (LTE 240):\nPágina 49: Receptor PH2/R (CN53 en BRB 2074).\nPágina 79: Control del Inversor 5 y barrera PH2."
+      }
+    ]
+  },
+  {
+    "id": "100-desc-1",
+    "code": "100",
+    "title": "ALARMA # 100",
+    "cause": "Grupo de movimiento de correa servomotor más eje tarjeta de DIR 940 no está listo o deshabilitado.",
+    "diagnosis": "Falla:  El servo-driver del movimiento de correa en el DIR / TF 235 no está listo o interruptor IA40 disparado.\nComponentes / Tarjetas (TF 235 y LTE 240):\nInterruptor magnetotérmico IA40 (2A), Servodriver de correa A1, Tarjeta de interfaz de eje BRB 3013.\nUbicación en los circuitos del DIR:\nPágina 26 (TF 235): Ubicación del relé de temperatura RT1, IA40 y la tarjeta BRB 3013 en el cuadro de correa.\nPágina 28 (TF 235): Esquema de alimentación de potencia del servodriver A1 y motor M13.\nPáginas 40 y 52 (TF 235): Señal de salida READY (línea 53/CN58 de BRB 3013) enviada desde el servodriver hacia la tarjeta de eje CPU.\nPágina 52 (TF 235): Luces LED de estado en la tarjeta del servodriver: LED RUN (Verde = Operativo) y LED STS (Rojo = Deshabilitado / Falla).",
+    "manualPage": 93,
+    "displayHint": "ALARMA # 100",
+    "descriptionCause": "Grupo de movimiento de correa servomotor más eje tarjeta de DIR 940 no está listo o deshabilitado.",
+    "descriptionLocation": "Encender y apagar. Chequear el estado de los LED del grupo correa servomotor + eje tarjeta según el manual de instrucciones DIR 940.\nSi no es como se indica, chequear conexiones hacia el grupo y el interruptor automático IA40.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #100 (Pág. 93)",
+        "category": "3. Alarmas de Módulos de Salida y Sistema (#034 a #111) (Páginas 92 y 93)",
+        "notes": "Falla:  El servo-driver del movimiento de correa en el DIR / TF 235 no está listo o interruptor IA40 disparado.\nComponentes / Tarjetas (TF 235 y LTE 240):\nInterruptor magnetotérmico IA40 (2A), Servodriver de correa A1, Tarjeta de interfaz de eje BRB 3013.\nUbicación en los circuitos del DIR:\nPágina 26 (TF 235): Ubicación del relé de temperatura RT1, IA40 y la tarjeta BRB 3013 en el cuadro de correa.\nPágina 28 (TF 235): Esquema de alimentación de potencia del servodriver A1 y motor M13.\nPáginas 40 y 52 (TF 235): Señal de salida READY (línea 53/CN58 de BRB 3013) enviada desde el servodriver hacia la tarjeta de eje CPU.\nPágina 52 (TF 235): Luces LED de estado en la tarjeta del servodriver: LED RUN (Verde = Operativo) y LED STS (Rojo = Deshabilitado / Falla)."
+      }
+    ]
+  },
+  {
+    "id": "104-desc-1",
+    "code": "104",
+    "title": "ALARMA # 104",
+    "cause": "Una o más salidas de la tarjeta LEA 2020 ind. 4 con nivel incorrecto. Debería ser = 0 y es = 1.\nOUT8 (56) OUT10 (58) OUT12 (60) OUT14 (62)\nOUT9 (57) OUT11 (59) OUT13 (61) OUT15 (63)",
+    "diagnosis": "Falla:  Fallo de salidas en tarjeta LEA 2020 IND. 4.\nUbicación en el circuito (LTE 240):\nPágina 63: Salidas OUT8 a OUT15 (líneas 56 a 63).",
+    "manualPage": 93,
+    "displayHint": "ALARMA # 104",
+    "descriptionCause": "Una o más salidas de la tarjeta LEA 2020 ind. 4 con nivel incorrecto. Debería ser = 0 y es = 1.\nOUT8 (56) OUT10 (58) OUT12 (60) OUT14 (62)\nOUT9 (57) OUT11 (59) OUT13 (61) OUT15 (63)",
+    "descriptionLocation": "Ver C.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #096 / #104 (Pág. 93)",
+        "category": "3. Alarmas de Módulos de Salida y Sistema (#034 a #111) (Páginas 92 y 93)",
+        "notes": "Falla:  Fallo de salidas en tarjeta LEA 2020 IND. 4.\nUbicación en el circuito (LTE 240):\nPágina 63: Salidas OUT8 a OUT15 (líneas 56 a 63)."
+      }
+    ]
+  },
+  {
+    "id": "110-desc-1",
+    "code": "110",
+    "title": "ALARMA # 110",
+    "cause": "Una o más salidas de la tarjeta LEA 2020 ind. 5 con nivel incorrecto. Debería ser = 1 y es = 0.\nOUT16 (152) OUT18 (154) OUT20 (156) OUT22 (158)\nOUT17 (153) OUT19 (155) OUT21 (157) OUT23 (159)",
+    "diagnosis": "Falla:  Falla en salidas de la tarjeta LEA 2020 IND. 5.\nUbicación en el circuito (LTE 240):\nPáginas 64 y 100: Salidas OUT16 a OUT23 (líneas 152 a 159).",
+    "manualPage": 93,
+    "displayHint": "ALARMA # 110",
+    "descriptionCause": "Una o más salidas de la tarjeta LEA 2020 ind. 5 con nivel incorrecto. Debería ser = 1 y es = 0.\nOUT16 (152) OUT18 (154) OUT20 (156) OUT22 (158)\nOUT17 (153) OUT19 (155) OUT21 (157) OUT23 (159)",
+    "descriptionLocation": "Probable cortocircuito en salida. Ver C.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #110 / #111 (Pág. 93)",
+        "category": "3. Alarmas de Módulos de Salida y Sistema (#034 a #111) (Páginas 92 y 93)",
+        "notes": "Falla:  Falla en salidas de la tarjeta LEA 2020 IND. 5.\nUbicación en el circuito (LTE 240):\nPáginas 64 y 100: Salidas OUT16 a OUT23 (líneas 152 a 159)."
+      }
+    ]
+  },
+  {
+    "id": "111-desc-1",
+    "code": "111",
+    "title": "ALARMA # 111",
+    "cause": "Una o más salidas de la tarjeta LEA 2020 ind. 5 con nivel incorrecto. Debería ser = 0 y es = 1.\nOUT16 (152) OUT18 (154) OUT20 (156) OUT22 (158)\nOUT17 (153) OUT19 (155) OUT21 (157) OUT23 (159)",
+    "diagnosis": "Falla:  Falla en salidas de la tarjeta LEA 2020 IND. 5.\nUbicación en el circuito (LTE 240):\nPáginas 64 y 100: Salidas OUT16 a OUT23 (líneas 152 a 159).",
+    "manualPage": 93,
+    "displayHint": "ALARMA # 111",
+    "descriptionCause": "Una o más salidas de la tarjeta LEA 2020 ind. 5 con nivel incorrecto. Debería ser = 0 y es = 1.\nOUT16 (152) OUT18 (154) OUT20 (156) OUT22 (158)\nOUT17 (153) OUT19 (155) OUT21 (157) OUT23 (159)",
+    "descriptionLocation": "Ver C.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #110 / #111 (Pág. 93)",
+        "category": "3. Alarmas de Módulos de Salida y Sistema (#034 a #111) (Páginas 92 y 93)",
+        "notes": "Falla:  Falla en salidas de la tarjeta LEA 2020 IND. 5.\nUbicación en el circuito (LTE 240):\nPáginas 64 y 100: Salidas OUT16 a OUT23 (líneas 152 a 159)."
+      }
+    ]
+  },
+  {
+    "id": "160-desc-1",
+    "code": "160",
+    "title": "ALARMA # 160",
+    "cause": "Eje carreta tarjeta BRB 2044 o 2045 probablemente defectuoso.",
+    "diagnosis": "Falla:  Anomalías del eje horizontal de la carreta, fallo de la tarjeta de eje BRB 2044, interfaz BRB 2045 o encoder EC5.\nUbicación en el circuito (LTE 240):\nPágina 50: Encoder EC5 en conector CN51 de BRB 2072.\nPágina 55 y 78: Circuito del Inversor 4, tarjeta de interfaz BRB 2045 (LEDs LD1 a LD5) y tarjeta BRB 2044.",
+    "manualPage": 93,
+    "displayHint": "ALARMA # 160",
+    "descriptionCause": "Eje carreta tarjeta BRB 2044 o 2045 probablemente defectuoso.",
+    "descriptionLocation": "Chequear la tarjeta BRB 2044 carreta y BRB 2045, el grupo inversor y el cable de conexión relevante del inversor a la BRB 2044.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #160 / #161 / #163 / #164 / #170 (Págs. 93 y 94)",
+        "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+        "notes": "Falla:  Anomalías del eje horizontal de la carreta, fallo de la tarjeta de eje BRB 2044, interfaz BRB 2045 o encoder EC5.\nUbicación en el circuito (LTE 240):\nPágina 50: Encoder EC5 en conector CN51 de BRB 2072.\nPágina 55 y 78: Circuito del Inversor 4, tarjeta de interfaz BRB 2045 (LEDs LD1 a LD5) y tarjeta BRB 2044."
+      }
+    ]
+  },
+  {
+    "id": "161-desc-1",
+    "code": "161",
+    "title": "ALARMA # 161",
+    "cause": "Encoder carreta horizontal EC5 defectuoso o cadena de transmisión muy suelta.",
+    "diagnosis": "Falla:  Anomalías del eje horizontal de la carreta, fallo de la tarjeta de eje BRB 2044, interfaz BRB 2045 o encoder EC5.\nUbicación en el circuito (LTE 240):\nPágina 50: Encoder EC5 en conector CN51 de BRB 2072.\nPágina 55 y 78: Circuito del Inversor 4, tarjeta de interfaz BRB 2045 (LEDs LD1 a LD5) y tarjeta BRB 2044.",
+    "manualPage": 93,
+    "displayHint": "ALARMA # 161",
+    "descriptionCause": "Encoder carreta horizontal EC5 defectuoso o cadena de transmisión muy suelta.",
+    "descriptionLocation": "Chequear la conexión del motor horizontal hacia el inversor, la conexión del encoder y la tensión de la cadena de transmisión.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #160 / #161 / #163 / #164 / #170 (Págs. 93 y 94)",
+        "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+        "notes": "Falla:  Anomalías del eje horizontal de la carreta, fallo de la tarjeta de eje BRB 2044, interfaz BRB 2045 o encoder EC5.\nUbicación en el circuito (LTE 240):\nPágina 50: Encoder EC5 en conector CN51 de BRB 2072.\nPágina 55 y 78: Circuito del Inversor 4, tarjeta de interfaz BRB 2045 (LEDs LD1 a LD5) y tarjeta BRB 2044."
+      }
+    ]
+  },
+  {
+    "id": "163-desc-1",
+    "code": "163",
+    "title": "ALARMA # 163",
+    "cause": "Falta de movimiento del motor carreta horizontal o el encoder EC5 está defectuoso.",
+    "diagnosis": "Falla:  Anomalías del eje horizontal de la carreta, fallo de la tarjeta de eje BRB 2044, interfaz BRB 2045 o encoder EC5.\nUbicación en el circuito (LTE 240):\nPágina 50: Encoder EC5 en conector CN51 de BRB 2072.\nPágina 55 y 78: Circuito del Inversor 4, tarjeta de interfaz BRB 2045 (LEDs LD1 a LD5) y tarjeta BRB 2044.",
+    "manualPage": 93,
+    "displayHint": "ALARMA # 163",
+    "descriptionCause": "Falta de movimiento del motor carreta horizontal o el encoder EC5 está defectuoso.",
+    "descriptionLocation": "Apagar, encender y resetear.\nSi la carreta no se mueve: chequear el motor y el circuito de control (inversor, etc.).\nSi la carreta se mueve irregularmente: chequear el encoder y el circuito de control relevante.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #160 / #161 / #163 / #164 / #170 (Págs. 93 y 94)",
+        "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+        "notes": "Falla:  Anomalías del eje horizontal de la carreta, fallo de la tarjeta de eje BRB 2044, interfaz BRB 2045 o encoder EC5.\nUbicación en el circuito (LTE 240):\nPágina 50: Encoder EC5 en conector CN51 de BRB 2072.\nPágina 55 y 78: Circuito del Inversor 4, tarjeta de interfaz BRB 2045 (LEDs LD1 a LD5) y tarjeta BRB 2044."
+      }
+    ]
+  },
+  {
+    "id": "164-desc-1",
+    "code": "164",
+    "title": "ALARMA # 164",
+    "cause": "Tarjeta BRB 2044 eje horizontal carreta defectuosa o rota.",
+    "diagnosis": "Falla:  Anomalías del eje horizontal de la carreta, fallo de la tarjeta de eje BRB 2044, interfaz BRB 2045 o encoder EC5.\nUbicación en el circuito (LTE 240):\nPágina 50: Encoder EC5 en conector CN51 de BRB 2072.\nPágina 55 y 78: Circuito del Inversor 4, tarjeta de interfaz BRB 2045 (LEDs LD1 a LD5) y tarjeta BRB 2044.",
+    "manualPage": 93,
+    "displayHint": "ALARMA # 164",
+    "descriptionCause": "Tarjeta BRB 2044 eje horizontal carreta defectuosa o rota.",
+    "descriptionLocation": "Chequear la tarjeta BRB 2044 y reemplazarla si es necesario.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #160 / #161 / #163 / #164 / #170 (Págs. 93 y 94)",
+        "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+        "notes": "Falla:  Anomalías del eje horizontal de la carreta, fallo de la tarjeta de eje BRB 2044, interfaz BRB 2045 o encoder EC5.\nUbicación en el circuito (LTE 240):\nPágina 50: Encoder EC5 en conector CN51 de BRB 2072.\nPágina 55 y 78: Circuito del Inversor 4, tarjeta de interfaz BRB 2045 (LEDs LD1 a LD5) y tarjeta BRB 2044."
+      }
+    ]
+  },
+  {
+    "id": "170-desc-1",
+    "code": "170",
+    "title": "ALARMA # 170",
+    "cause": "Errónea comunicación entre BRB 8000 y tarjeta BRB 2044 carreta eje horizontal, o tarjeta eje BRB 2044 defectuosa.",
+    "diagnosis": "Falla:  Anomalías del eje horizontal de la carreta, fallo de la tarjeta de eje BRB 2044, interfaz BRB 2045 o encoder EC5.\nUbicación en el circuito (LTE 240):\nPágina 50: Encoder EC5 en conector CN51 de BRB 2072.\nPágina 55 y 78: Circuito del Inversor 4, tarjeta de interfaz BRB 2045 (LEDs LD1 a LD5) y tarjeta BRB 2044.",
+    "manualPage": 93,
+    "displayHint": "ALARMA # 170",
+    "descriptionCause": "Errónea comunicación entre BRB 8000 y tarjeta BRB 2044 carreta eje horizontal, o tarjeta eje BRB 2044 defectuosa.",
+    "descriptionLocation": "Chequear las conexiones correctas de cables de fibra óptica entre tarjetas. Ver E.\nEntonces sustituir tarjeta eje BRB 2044.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #160 / #161 / #163 / #164 / #170 (Págs. 93 y 94)",
+        "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+        "notes": "Falla:  Anomalías del eje horizontal de la carreta, fallo de la tarjeta de eje BRB 2044, interfaz BRB 2045 o encoder EC5.\nUbicación en el circuito (LTE 240):\nPágina 50: Encoder EC5 en conector CN51 de BRB 2072.\nPágina 55 y 78: Circuito del Inversor 4, tarjeta de interfaz BRB 2045 (LEDs LD1 a LD5) y tarjeta BRB 2044."
+      }
+    ]
+  },
+  {
+    "id": "181-desc-1",
+    "code": "181",
+    "title": "ALARMA # 181 (minúsculas)",
+    "cause": "Memoria RAM de la BRB 8900 del DIR 940 3-4 defectuosa o no inicializada.",
+    "diagnosis": "Falla:  RAM desinicializada o corrupta en la tarjeta CPU BRB 8900 del módulo DIR (TF 3-4 o TF 5).\nComponentes / Tarjetas (TF 235):  Tarjeta CPU BRB 8900.\nUbicación en el manual DIR:\nPáginas 15, 16, 17 y 43 (TF 235): Disposición de la tarjeta CPU BRB 8900 en el panel eléctrico DIR, selectores SW1, SW2, DIP-switch SW3 y zócalo de la EPROM.\nProcedimiento de Recuperación (Páginas 17 y 18 TF 235):  Si se reemplaza la tarjeta BRB 8900 o la RAM se pierde, colocar el selector SW2 en la posición 7 para calibrar el encoder del potenciómetro de correa EC7 y volver a posicionar en 3 para operación.",
+    "manualPage": 94,
+    "displayHint": "ALARMA # 181 (minúsculas)",
+    "descriptionCause": "Memoria RAM de la BRB 8900 del DIR 940 3-4 defectuosa o no inicializada.",
+    "descriptionLocation": "Apagar y encender. Si permanece, sustituir BRB 8900 DIR 3-4.",
+    "blocksMachine": "NO",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #181 (Pág. 94)",
+        "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+        "notes": "Falla:  RAM desinicializada o corrupta en la tarjeta CPU BRB 8900 del módulo DIR (TF 3-4 o TF 5).\nComponentes / Tarjetas (TF 235):  Tarjeta CPU BRB 8900.\nUbicación en el manual DIR:\nPáginas 15, 16, 17 y 43 (TF 235): Disposición de la tarjeta CPU BRB 8900 en el panel eléctrico DIR, selectores SW1, SW2, DIP-switch SW3 y zócalo de la EPROM.\nProcedimiento de Recuperación (Páginas 17 y 18 TF 235):  Si se reemplaza la tarjeta BRB 8900 o la RAM se pierde, colocar el selector SW2 en la posición 7 para calibrar el encoder del potenciómetro de correa EC7 y volver a posicionar en 3 para operación."
+      }
+    ]
+  },
+  {
+    "id": "240-desc-1",
+    "code": "240",
+    "title": "ALARMA # 240",
+    "cause": "Falta o interrupción de un movimiento durante el ciclo manual o automático, o falta de movimiento por parte del sensor correspondiente de la entrada de la tarjeta LEA 2010 (siendo evidente después de 10 s).\nNo activado durante ciclo paso a paso.",
+    "diagnosis": "Falla:  Tiempo de ciclo excedido (10 s) por falta de cambio de estado en sensores del ciclo principal.\nUbicación en el circuito:\nPáginas 49, 61 y 62 (LTE 240): Mapeo de la cadena de entradas en las tarjetas LEA 2010 IND. 0 y 1.\nMáscaras de Diagnóstico:  Bits 00 a 47.",
+    "manualPage": 94,
+    "displayHint": "ALARMA # 240",
+    "descriptionCause": "Falta o interrupción de un movimiento durante el ciclo manual o automático, o falta de movimiento por parte del sensor correspondiente de la entrada de la tarjeta LEA 2010 (siendo evidente después de 10 s).\nNo activado durante ciclo paso a paso.",
+    "descriptionLocation": "Notar la fase del ciclo en que se paró la máquina.\nSi aparece con apilador bajo: chequear PH2.\nDespués chequear la funcionalidad de: PSW1, PSW3, PSW4, PSW5, PSW6, PSW11, PSW12, PSW14, PH3.\nVer B.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #240 (Pág. 94)",
+        "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+        "notes": "Falla:  Tiempo de ciclo excedido (10 s) por falta de cambio de estado en sensores del ciclo principal.\nUbicación en el circuito:\nPáginas 49, 61 y 62 (LTE 240): Mapeo de la cadena de entradas en las tarjetas LEA 2010 IND. 0 y 1.\nMáscaras de Diagnóstico:  Bits 00 a 47."
+      }
+    ]
+  },
+  {
+    "id": "241-desc-1",
+    "code": "241",
+    "title": "ALARMA # 241",
+    "cause": "Falta de ciclo pisador: PSW8 pisador alto siempre OFF (con pisador alto y parado).",
+    "diagnosis": "Falla:  Falta de ciclo de pisador / Sensor PSW8 (pisador alto) desmarcado.\nUbicación en el circuito (LTE 240):\nPágina 26: Procedimiento técnico de restauración en pantalla.\nPáginas 54 y 75: Conexiones del Inversor 1 y motor M10.\nPágina 74: Tarjeta de relés de velocidad BRB 2073 (RE35-RE44).",
+    "manualPage": 94,
+    "displayHint": "ALARMA # 241",
+    "descriptionCause": "Falta de ciclo pisador: PSW8 pisador alto siempre OFF (con pisador alto y parado).",
+    "descriptionLocation": "Ver B.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #241 / #242 (Pág. 94)",
+        "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+        "notes": "Falla:  Falta de ciclo de pisador / Sensor PSW8 (pisador alto) desmarcado.\nUbicación en el circuito (LTE 240):\nPágina 26: Procedimiento técnico de restauración en pantalla.\nPáginas 54 y 75: Conexiones del Inversor 1 y motor M10.\nPágina 74: Tarjeta de relés de velocidad BRB 2073 (RE35-RE44)."
+      }
+    ]
+  },
+  {
+    "id": "242-desc-1",
+    "code": "242",
+    "title": "ALARMA # 242",
+    "cause": "PSW8 pisador alto siempre OFF o defectuoso o posicionado incorrectamente, o velocidad del pisador no correcta.",
+    "diagnosis": "Falla:  Falta de ciclo de pisador / Sensor PSW8 (pisador alto) desmarcado.\nUbicación en el circuito (LTE 240):\nPágina 26: Procedimiento técnico de restauración en pantalla.\nPáginas 54 y 75: Conexiones del Inversor 1 y motor M10.\nPágina 74: Tarjeta de relés de velocidad BRB 2073 (RE35-RE44).",
+    "manualPage": 94,
+    "displayHint": "ALARMA # 242",
+    "descriptionCause": "PSW8 pisador alto siempre OFF o defectuoso o posicionado incorrectamente, o velocidad del pisador no correcta.",
+    "descriptionLocation": "Ver páginas 22-25.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #241 / #242 (Pág. 94)",
+        "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+        "notes": "Falla:  Falta de ciclo de pisador / Sensor PSW8 (pisador alto) desmarcado.\nUbicación en el circuito (LTE 240):\nPágina 26: Procedimiento técnico de restauración en pantalla.\nPáginas 54 y 75: Conexiones del Inversor 1 y motor M10.\nPágina 74: Tarjeta de relés de velocidad BRB 2073 (RE35-RE44)."
+      }
+    ]
+  },
+  {
+    "id": "243-desc-1",
+    "code": "243",
+    "title": "ALARMA # 243",
+    "cause": "Memoria RAM de BRB 8000 defectuosa.",
+    "diagnosis": "Falla:  RAM dañada en BRB 8000 / Confirmación de inverters desactivada (IN34 OFF).\nUbicación en el circuito:\nPáginas 48 y 62 (LTE 240): Entrada IN34 en tarjeta LEA 2010 IND. 1.",
+    "manualPage": 94,
+    "displayHint": "ALARMA # 243",
+    "descriptionCause": "Memoria RAM de BRB 8000 defectuosa.",
+    "descriptionLocation": "Encender y apagar. Si permanece, sustituir BRB 8000.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #243 / #244 (Pág. 94)",
+        "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+        "notes": "Falla:  RAM dañada en BRB 8000 / Confirmación de inverters desactivada (IN34 OFF).\nUbicación en el circuito:\nPáginas 48 y 62 (LTE 240): Entrada IN34 en tarjeta LEA 2010 IND. 1."
+      }
+    ]
+  },
+  {
+    "id": "244-desc-1",
+    "code": "244",
+    "title": "ALARMA # 244",
+    "cause": "Señal de control inversor es OFF: IN34 (34) = 0. Un inversor está bloqueado.",
+    "diagnosis": "Falla:  RAM dañada en BRB 8000 / Confirmación de inverters desactivada (IN34 OFF).\nUbicación en el circuito:\nPáginas 48 y 62 (LTE 240): Entrada IN34 en tarjeta LEA 2010 IND. 1.",
+    "manualPage": 94,
+    "displayHint": "ALARMA # 244",
+    "descriptionCause": "Señal de control inversor es OFF: IN34 (34) = 0. Un inversor está bloqueado.",
+    "descriptionLocation": "Apagar, esperar 20 segundos y encender. Chequear el estado del inversor en el display relativo.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #243 / #244 (Pág. 94)",
+        "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+        "notes": "Falla:  RAM dañada en BRB 8000 / Confirmación de inverters desactivada (IN34 OFF).\nUbicación en el circuito:\nPáginas 48 y 62 (LTE 240): Entrada IN34 en tarjeta LEA 2010 IND. 1."
+      }
+    ]
+  },
+  {
+    "id": "247-desc-1",
+    "code": "247",
+    "title": "ALARMA # 247",
+    "cause": "Memoria RAM de BRB 2057 defectuosa.",
+    "diagnosis": "Falla:  RAM defectuosa en tarjeta comunicadora de display BRB 2057.\nUbicación en el circuito (LTE 240):\nPáginas 51 y 83: Tarjeta BRB 2057 conectada por buses planos (CN87, CN88) y fibra óptica TX8/RX8.",
+    "manualPage": 95,
+    "displayHint": "ALARMA # 247",
+    "descriptionCause": "Memoria RAM de BRB 2057 defectuosa.",
+    "descriptionLocation": "Apagar y encender. Si se queda, sustituir BRB 2057.",
+    "blocksMachine": "NO",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #247 (Pág. 95)",
+        "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+        "notes": "Falla:  RAM defectuosa en tarjeta comunicadora de display BRB 2057.\nUbicación en el circuito (LTE 240):\nPáginas 51 y 83: Tarjeta BRB 2057 conectada por buses planos (CN87, CN88) y fibra óptica TX8/RX8."
+      }
+    ]
+  },
+  {
+    "id": "253-desc-1",
+    "code": "253",
+    "title": "ALARMA # 253",
+    "cause": "Alarma fibra óptica: no hay comunicación entre BRB 8000 y tarjeta eje BRB 2044.",
+    "diagnosis": "Falla:  Falla en el bucle de comunicación por fibra óptica / Anillo abierto.\nUbicación e Interconexión de Fibra Óptica (LTE 240 + TF 235):\nPágina 52 (LTE 240): Conexiones de fibra óptica entre CPU Master BRB 8000, tarjeta de eje BRB 2044 e interfaz BRB 2057.\nPágina 43 y 58 (TF 235): Cadena de fibra óptica que ingresa al armario DIR:\nLa fibra que sale de la máquina base ingresa a la tarjeta BRB 8900 del cuadro TF 5 por los conectores TX6 / RX6.\nDel cuadro TF 5 la fibra sale por TX7 / RX7 hacia los conectores TX8 / RX8 de la tarjeta CPU BRB 8900 del cuadro TF 3-4.\nMáscaras de Diagnóstico:  Estado de fibra U1, U2, U3, U4 en pantalla.",
+    "manualPage": 95,
+    "displayHint": "ALARMA # 253",
+    "descriptionCause": "Alarma fibra óptica: no hay comunicación entre BRB 8000 y tarjeta eje BRB 2044.",
+    "descriptionLocation": "Ver E.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #253 / #254 (Pág. 95)",
+        "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+        "notes": "Falla:  Falla en el bucle de comunicación por fibra óptica / Anillo abierto.\nUbicación e Interconexión de Fibra Óptica (LTE 240 + TF 235):\nPágina 52 (LTE 240): Conexiones de fibra óptica entre CPU Master BRB 8000, tarjeta de eje BRB 2044 e interfaz BRB 2057.\nPágina 43 y 58 (TF 235): Cadena de fibra óptica que ingresa al armario DIR:\nLa fibra que sale de la máquina base ingresa a la tarjeta BRB 8900 del cuadro TF 5 por los conectores TX6 / RX6.\nDel cuadro TF 5 la fibra sale por TX7 / RX7 hacia los conectores TX8 / RX8 de la tarjeta CPU BRB 8900 del cuadro TF 3-4.\nMáscaras de Diagnóstico:  Estado de fibra U1, U2, U3, U4 en pantalla."
+      }
+    ]
+  },
+  {
+    "id": "254-desc-1",
+    "code": "254",
+    "title": "ALARMA # 254",
+    "cause": "Alarma fibra óptica: falta un usuario (tarjeta CPU) en línea (chequear en la máscara diagnóstico cuál usuario/tarjeta no se comunica más).",
+    "diagnosis": "Falla:  Falla en el bucle de comunicación por fibra óptica / Anillo abierto.\nUbicación e Interconexión de Fibra Óptica (LTE 240 + TF 235):\nPágina 52 (LTE 240): Conexiones de fibra óptica entre CPU Master BRB 8000, tarjeta de eje BRB 2044 e interfaz BRB 2057.\nPágina 43 y 58 (TF 235): Cadena de fibra óptica que ingresa al armario DIR:\nLa fibra que sale de la máquina base ingresa a la tarjeta BRB 8900 del cuadro TF 5 por los conectores TX6 / RX6.\nDel cuadro TF 5 la fibra sale por TX7 / RX7 hacia los conectores TX8 / RX8 de la tarjeta CPU BRB 8900 del cuadro TF 3-4.\nMáscaras de Diagnóstico:  Estado de fibra U1, U2, U3, U4 en pantalla.",
+    "manualPage": 95,
+    "displayHint": "ALARMA # 254",
+    "descriptionCause": "Alarma fibra óptica: falta un usuario (tarjeta CPU) en línea (chequear en la máscara diagnóstico cuál usuario/tarjeta no se comunica más).",
+    "descriptionLocation": "Ver E.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #253 / #254 (Pág. 95)",
+        "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+        "notes": "Falla:  Falla en el bucle de comunicación por fibra óptica / Anillo abierto.\nUbicación e Interconexión de Fibra Óptica (LTE 240 + TF 235):\nPágina 52 (LTE 240): Conexiones de fibra óptica entre CPU Master BRB 8000, tarjeta de eje BRB 2044 e interfaz BRB 2057.\nPágina 43 y 58 (TF 235): Cadena de fibra óptica que ingresa al armario DIR:\nLa fibra que sale de la máquina base ingresa a la tarjeta BRB 8900 del cuadro TF 5 por los conectores TX6 / RX6.\nDel cuadro TF 5 la fibra sale por TX7 / RX7 hacia los conectores TX8 / RX8 de la tarjeta CPU BRB 8900 del cuadro TF 3-4.\nMáscaras de Diagnóstico:  Estado de fibra U1, U2, U3, U4 en pantalla."
+      }
+    ]
+  },
+  {
+    "id": "255-desc-1",
+    "code": "255",
+    "title": "ALARMA # 255 (minúsculas)",
+    "cause": "Comunicación errónea entre tarjeta CPU BRB 8900 de DIR 940 3-4 y tarjeta control correa eje del grupo movimiento correa del DIR 940.",
+    "diagnosis": "Falla:   Error de comunicación de datos entre la tarjeta CPU BRB 8900 (del módulo DIR 940 3-4) y la tarjeta de control de correa BRB 3013.\nComponentes / Tarjetas (TF 235 / DIR):   CPU BRB 8900 (TF 3-4), Tarjeta de Interfaz de Correa BRB 3013, Servodriver A1.\nUbicación en el manual DIR:\nPágina 40 y 53 (TF 235):  Transmisión serie desde la CPU BRB 8900 (TF 3-4) conector CN60 (pines TX+/TX-, RX+/RX-) hacia el conector CN59 de la tarjeta BRB 3013.\nPágina 53 (TF 235):  Revisa el cableado de interconexión entre la tarjeta BRB 3013 y la tarjeta de eje del servodriver por los conectores CN55 y CN56.\nMáscaras de Diagnóstico:\nPáginas 15 y 16 (TF 235) / Página 99 (LTE 240): Pantalla de diagnóstico del TF/DIR presionando la combinación de teclas: [KEY ON] + [DISPLAY/7] + [FLECHA ARRIBA]. Debe mostrar en la columna derecha las lecturas del potenciómetro de correa (G, E, Z).",
+    "manualPage": 95,
+    "displayHint": "ALARMA # 255 (minúsculas)",
+    "descriptionCause": "Comunicación errónea entre tarjeta CPU BRB 8900 de DIR 940 3-4 y tarjeta control correa eje del grupo movimiento correa del DIR 940.",
+    "descriptionLocation": "Chequear la conexión entre conector CN60 de la tarjeta CPU 8900 DIR 3-4 y conector CN59 de la tarjeta BRB 3013 en el panel eléctrico de control de correa.\nEntonces chequear la conexión entre CN56 de BRB 3013 y tarjeta de eje correa.",
+    "blocksMachine": "NO",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Numéricas",
+    "database": [
+      {
+        "heading": "ALARMA #255 (Pág. 95)",
+        "category": "4. Alarmas de Inverters, Fibra Óptica y Módulo DIR / Correa (#160 a #255) (Páginas 93 a 95)",
+        "notes": "Falla:   Error de comunicación de datos entre la tarjeta CPU BRB 8900 (del módulo DIR 940 3-4) y la tarjeta de control de correa BRB 3013.\nComponentes / Tarjetas (TF 235 / DIR):   CPU BRB 8900 (TF 3-4), Tarjeta de Interfaz de Correa BRB 3013, Servodriver A1.\nUbicación en el manual DIR:\nPágina 40 y 53 (TF 235):  Transmisión serie desde la CPU BRB 8900 (TF 3-4) conector CN60 (pines TX+/TX-, RX+/RX-) hacia el conector CN59 de la tarjeta BRB 3013.\nPágina 53 (TF 235):  Revisa el cableado de interconexión entre la tarjeta BRB 3013 y la tarjeta de eje del servodriver por los conectores CN55 y CN56.\nMáscaras de Diagnóstico:\nPáginas 15 y 16 (TF 235) / Página 99 (LTE 240): Pantalla de diagnóstico del TF/DIR presionando la combinación de teclas: [KEY ON] + [DISPLAY/7] + [FLECHA ARRIBA]. Debe mostrar en la columna derecha las lecturas del potenciómetro de correa (G, E, Z)."
+      }
+    ]
+  },
+  {
+    "id": "desc-3",
+    "code": "",
+    "title": "ALARMA DESPLZ EJE",
+    "cause": "Desplazamiento carreta adelante o atrás. Alarma rearmable.",
+    "diagnosis": "",
+    "manualPage": null,
+    "displayHint": "ALARMA DESPLZ EJE",
+    "descriptionCause": "Desplazamiento carreta adelante o atrás. Alarma rearmable.",
+    "descriptionLocation": "PSW4 final carrera lado entrada siempre ON o defectuoso. Controlar la conexión hacia la tarjeta BRB 2072 y BRB 2044.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Descriptivas",
+    "database": []
+  },
+  {
+    "id": "desc-5",
+    "code": "",
+    "title": "ALARMA GENÉRICA IA",
+    "cause": "• Falta de voltaje 18V, o\n• Un interruptor automático (IA5-6-7-8-9-10-18-19-20-21-22) OFF, o\n• Avería en grupo control frenos, o\n• La máquina se ha apagado y vuelto a encender sin esperar 10 segundos.",
+    "diagnosis": "",
+    "manualPage": null,
+    "displayHint": "ALARMA GENÉRICA IA",
+    "descriptionCause": "• Falta de voltaje 18V, o\n• Un interruptor automático (IA5-6-7-8-9-10-18-19-20-21-22) OFF, o\n• Avería en grupo control frenos, o\n• La máquina se ha apagado y vuelto a encender sin esperar 10 segundos.",
+    "descriptionLocation": "Ver F, luego A.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Descriptivas",
+    "database": []
+  },
+  {
+    "id": "desc-6",
+    "code": "",
+    "title": "ALARMA IA EXTERNA",
+    "cause": "Un interruptor automático IA31-32-33-34-35-36-37-38 OFF (motor rodillos y ensanchadores DIR).",
+    "diagnosis": "",
+    "manualPage": null,
+    "displayHint": "ALARMA IA EXTERNA",
+    "descriptionCause": "Un interruptor automático IA31-32-33-34-35-36-37-38 OFF (motor rodillos y ensanchadores DIR).",
+    "descriptionLocation": "Ver A.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Descriptivas",
+    "database": []
+  },
+  {
+    "id": "desc-2",
+    "code": "",
+    "title": "ALARMA PORTAPERFILES",
+    "cause": "Imanes portaperfiles no alimentados correctamente.",
+    "diagnosis": "",
+    "manualPage": null,
+    "displayHint": "ALARMA PORTAPERFILES",
+    "descriptionCause": "Imanes portaperfiles no alimentados correctamente.",
+    "descriptionLocation": "Controlar la salida 0-89-147 del transformador TR2 y IA20.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Descriptivas",
+    "database": []
+  },
+  {
+    "id": "desc-4",
+    "code": "",
+    "title": "FRENO MOTOR PISADOR",
+    "cause": "Freno motor pisador no alimentado correctamente.",
+    "diagnosis": "",
+    "manualPage": null,
+    "displayHint": "FRENO MOTOR PISADOR",
+    "descriptionCause": "Freno motor pisador no alimentado correctamente.",
+    "descriptionLocation": "Controlar IA21, las salidas del transformador TR3 y la tarjeta BRB 2048 correspondiente (fusibles y conexiones).",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Descriptivas",
+    "database": []
+  },
+  {
+    "id": "desc-7",
+    "code": "",
+    "title": "LÁMPARA DE ALARMA DEFECTUOSA",
+    "cause": "• La máquina se ha encendido y reset sin esperar al menos 5 segundos con el interruptor de llave IC en posición ON, o\n• La lámpara amarilla de la columna luminosa defectuosa.",
+    "diagnosis": "",
+    "manualPage": null,
+    "displayHint": "LÁMPARA DE ALARMA DEFECTUOSA",
+    "descriptionCause": "• La máquina se ha encendido y reset sin esperar al menos 5 segundos con el interruptor de llave IC en posición ON, o\n• La lámpara amarilla de la columna luminosa defectuosa.",
+    "descriptionLocation": "Efectuar correctamente el encendido de la máquina. Si permanece, sustituir la lámpara amarilla de la columna luminosa.",
+    "blocksMachine": "NO",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Descriptivas",
+    "database": []
+  },
+  {
+    "id": "desc-1",
+    "code": "",
+    "title": "TEJ FUERA DE POSICIÓN",
+    "cause": "Interferencia en la zona de la cadena principal o fotocélula PH1 defectuosa o bien falta voltaje 18V (IA4 OFF).",
+    "diagnosis": "",
+    "manualPage": null,
+    "displayHint": "TEJ FUERA DE POSICIÓN",
+    "descriptionCause": "Interferencia en la zona de la cadena principal o fotocélula PH1 defectuosa o bien falta voltaje 18V (IA4 OFF).",
+    "descriptionLocation": "Eliminar la causa de la interferencia y controlar la funcionalidad de la fotocélula bloqueo carreta.",
+    "blocksMachine": "SÍ",
+    "descriptionSource": "Alarmas Bierrebi 240",
+    "descriptionSheet": "Alarmas Descriptivas",
+    "database": []
+  }
+]
